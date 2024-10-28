@@ -33,6 +33,9 @@ library(openintro)
 library(infer)
 ```
 
+```{r}
+set.seed(4321)
+```
 
 ### The data
 
@@ -53,7 +56,7 @@ There are observations on 13 different variables, some categorical and some nume
 
 1.  What are the cases in this data set? How many cases are there in our sample?
 
-**Insert your answer here**
+**the high school participants, 13,583 cases**
 
 Remember that you can answer this question by viewing the data in the data viewer or by using the following command:
 
@@ -73,7 +76,7 @@ summary(yrbss$weight)
 
 2.  How many observations are we missing weights from?
 
-**Insert your answer here**
+**1004**
 
 Next, consider the possible relationship between a high schooler's weight and their physical activity. Plotting the data is a useful first step because it helps us quickly visualize trends, identify strong associations, and develop research questions.
 
@@ -87,7 +90,12 @@ yrbss <- yrbss %>%
 
 3.  Make a side-by-side boxplot of `physical_3plus` and `weight`. Is there a relationship between these two variables? What did you expect and why?
 
-**Insert your answer here**
+**The median and spread are surprisingly similar, suggesting not much of a relationship between weight and physical_3plus. I expected the No's to have a higher median weight, as they weren't as active.  **
+```{r}
+p <- ggplot(data=subset(yrbss, !is.na(physical_3plus)), aes(x=physical_3plus, y=weight)) + 
+  geom_boxplot()
+p
+```
 
 The box plots show how the medians of the two distributions compare, but we can also compare the means of the distributions using the following to first group the data by the `physical_3plus` variable, and then calculate the mean `weight` in these groups using the `mean` function while ignoring missing values by setting the `na.rm` argument to `TRUE`.
 
@@ -103,11 +111,21 @@ There is an observed difference, but is this difference statistically significan
 
 4.  Are all conditions necessary for inference satisfied? Comment on each. You can compute the group sizes with the `summarize` command above by defining a new variable with the definition `n()`.
 
-**Insert your answer here**
+**1. Random: YRBSS is a random sample of highschoolers**
+**2. Normal: our sample size is sufficiently large **
+**3. Independent: 13,583 is definitely less than 10% of population of all US highschoolers**
+
+```{r}
+  yrbss %>%
+  group_by(physical_3plus) %>%
+  summarise(total=n())
+```
 
 5.  Write the hypotheses for testing if the average weights are different for those who exercise at least times a week and those who don't.
 
-**Insert your answer here**
+**H0: the average weight is the same for those that exercise at least 3 times a week and those who don't **
+**H1: the average weight differs for those that exercise at least 3 times a week and those who don't**
+
 
 Next, we will introduce a new function, `hypothesize`, that falls into the `infer` workflow. You will use this method for conducting hypothesis tests. 
 
@@ -135,7 +153,7 @@ null_dist <- yrbss %>%
 
 Here, `hypothesize` is used to set the null hypothesis as a test for independence. In one sample cases, the `null` argument can be set to "point" to test a hypothesis relative to a point estimate.
 
-Also, note that the `type` argument within `generate` is set to `permute`, whichis the argument when generating a null distribution for a hypothesis test.
+Also, note that the `type` argument within `generate` is set to `permute`, which is the argument when generating a null distribution for a hypothesis test.
 
 We can visualize this null distribution with the following code:
 
@@ -147,7 +165,7 @@ ggplot(data = null_dist, aes(x = stat)) +
 
 6. How many of these `null` permutations have a difference of at least `obs_stat`?
 
-**Insert your answer here**
+**0**
 
 Now that the test is initialized and the null distribution formed, you can calculate the p-value for your hypothesis test using the function `get_p_value`.
 
@@ -160,28 +178,145 @@ This the standard workflow for performing hypothesis tests.
 
 7.  Construct and record a confidence interval for the difference between the weights of those who exercise at least three times a week and those who don't, and interpret this interval in context of the data.
 
+**we are 95% confident that difference between the average weights of those who exercise at least three times a week and those who don't is between -0.695 and 0.639 **
+
+```{r}
+yrbss %>%
+  drop_na(physical_3plus) %>%
+  specify(weight ~ physical_3plus) %>%
+  hypothesize(null = "independence") %>%
+  generate(reps = 1000, type = "permute") %>%
+  calculate(stat = "diff in means", order = c("yes", "no")) %>%
+  get_ci(level = 0.95)
+```
+
+
 * * *
 
 ## More Practice
 
 8.  Calculate a 95% confidence interval for the average height in meters (`height`) and interpret it in context.
 
-**Insert your answer here**
+**we are 95% confident that the average height in meters for high schoolers is between 1.67 and 1.71**
+
+```{r sample}
+n <- 60
+samp <- yrbss %>%
+  sample_n(size = n)
+```
+
+```{r}
+samp %>%
+  drop_na(height) %>%
+  specify(response = height) %>%
+  generate(reps = 1000, type = "bootstrap") %>%
+  calculate(stat = "mean") %>%
+  get_ci(level = 0.95)
+```
+
 
 9.  Calculate a new confidence interval for the same parameter at the 90% confidence level. Comment on the width of this interval versus the one obtained in the previous exercise.
 
-**Insert your answer here**
+**we are 95% confident that the average height in meters for high schoolers is between 1.67 and 1.71. The width stayed the same.**
+
+```{r}
+samp %>%
+  drop_na(height) %>%
+  specify(response = height) %>%
+  generate(reps = 1000, type = "bootstrap") %>%
+  calculate(stat = "mean") %>%
+  get_ci(level = 0.90)
+```
 
 10.  Conduct a hypothesis test evaluating whether the average height is different for those who exercise at least three times a week and those who don't.
 
-**Insert your answer here**
+****H0: the average height is the same for those that exercise at least 3 times a week and those who don't **
+**H1: the average height differs for those that exercise at least 3 times a week and those who don't**
+**
+```{r}
+obs_diff1 <- yrbss %>%
+  drop_na(physical_3plus) %>%
+  specify(height ~ physical_3plus) %>%
+  calculate(stat = "diff in means", order = c("yes", "no"))
+```
+
+```{r}
+null_dist1 <- yrbss %>%
+  drop_na(physical_3plus) %>%
+  specify(height ~ physical_3plus) %>%
+  hypothesize(null = "independence") %>%
+  generate(reps = 1000, type = "permute") %>%
+  calculate(stat = "diff in means", order = c("yes", "no"))
+```
+
+**we can reject the null hypothesis, with p < 0.05**
+```{r}
+null_dist1 %>%
+  get_p_value(obs_stat = obs_diff1, direction = "two_sided")
+```
 
 11.  Now, a non-inference task: Determine the number of different options there are in the dataset for the `hours_tv_per_school_day` there are.
 
-**Insert your answer here**
+**8**
+```{r}
+yrbss %>% group_by(hours_tv_per_school_day) %>% summarize(n())
+```
+
+
 
 12. Come up with a research question evaluating the relationship between height or weight and sleep. Formulate the question in a way that it can be answered using a hypothesis test and/or a confidence interval. Report the statistical results, and also provide an explanation in plain language. Be sure to check all assumptions, state your $\alpha$ level, and conclude in context.
 
-**Insert your answer here**
+**Does sleeping atleast 8 hours a school night effect highschoolers weight?**
+
+**H0: the average weight is the same for those that sleep at least 8 hours a school night and those who don't **
+**H1: the average weight differs for those that sleep at least 8 hours a school night and those who don't**
+
+**alpha level of .05**
+
+```{r}
+yrbss %>% group_by(school_night_hours_sleep) %>% summarize(n())
+```
+
+```{r}
+
+yrbss <- yrbss %>%  
+  mutate(sleep_8hrs = ifelse(yrbss$school_night_hours_sleep %in% c('8','9','10+'), "yes", "no"))
+```
+
+```{r}
+obs_diff_sleep <- yrbss %>%
+  drop_na(school_night_hours_sleep) %>%
+  specify(weight ~ sleep_8hrs) %>%
+  calculate(stat = "diff in means", order = c("yes", "no"))
+```
+
+```{r}
+null_dist_sleep <- yrbss %>%
+  drop_na(school_night_hours_sleep) %>%
+  specify(weight ~ sleep_8hrs) %>%
+  hypothesize(null = "independence") %>%
+  generate(reps = 1000, type = "permute") %>%
+  calculate(stat = "diff in means", order = c("yes", "no"))
+```
+
+**Reject the null, p < 0.05. there is a relationship between sleep and weight for high schoolers**
+```{r}
+null_dist_sleep %>%
+  get_p_value(obs_stat = obs_diff_sleep, direction = "two_sided")
+```
+
+**we are 95% confident that difference between the average weights of those who sleep at least 8 hrs a school night and those who don't is between -0.704 and 0.630 **
+
+```{r}
+set.seed(123)
+yrbss %>%
+  drop_na(school_night_hours_sleep) %>%
+  specify(weight ~ sleep_8hrs) %>%
+  hypothesize(null = "independence") %>%
+  generate(reps = 1000, type = "permute") %>%
+  calculate(stat = "diff in means", order = c("yes", "no")) %>%
+  get_ci(level = 0.95)
+```
+
 
 * * *
