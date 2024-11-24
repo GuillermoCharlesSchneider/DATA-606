@@ -151,7 +151,7 @@ ggplot(data = evals, aes(x = bty_avg, y = score)) +
 
 The blue line is the model. The shaded gray area around the line tells you about the variability you might expect in your predictions. To turn that off, use `se = FALSE`.
 
-```{r scatter-score-bty_avg-line}
+```{r }
 ggplot(data = evals, aes(x = bty_avg, y = score)) +
   geom_jitter() +
   geom_smooth(method = "lm", se = FALSE)
@@ -163,7 +163,7 @@ ggplot(data = evals, aes(x = bty_avg, y = score)) +
     
     
 
-**(1) linearity: The residuals seem evenly distributed, there doesnt seem to be much of a curve implying that a linear model could be a good fit for our data**
+**(1) linearity: The residuals seem evenly distributed, there doesn't seem to be much of a curve implying that a linear model could be a good fit for our data**
 
 ```{r}
 ggplot(data = m_bty, aes(x = .fitted, y = .resid)) +
@@ -174,11 +174,11 @@ ggplot(data = m_bty, aes(x = .fitted, y = .resid)) +
 ```
 
 
-**(2) nearly normal residuals: i think it looks nearly normal, although it could be left skewed**
+**(2) nearly normal residuals: i think it looks nearly normal, although it could be a bit left skewed**
 ```{r}
-ggplot(data = m_bty, aes(x = .resid)) +
-  geom_histogram(bins=20) +
-  xlab("Residuals")
+ggplot(data = m_bty, aes(sample = .resid)) +
+  stat_qq() +
+  stat_qq_line()
 ```
 
 
@@ -245,9 +245,9 @@ ggplot(data = m_bty_gen, aes(x = .fitted, y = .resid)) +
 
 **(2) nearly normal residuals: i think it looks nearly normal, although it could be left skewed**
 ```{r}
-ggplot(data = m_bty_gen, aes(x = .resid)) +
-  geom_histogram(bins=20) +
-  xlab("Residuals")
+ggplot(data = m_bty_gen, aes(sample = .resid)) +
+  stat_qq() +
+  stat_qq_line()
 ```
 
 
@@ -278,11 +278,7 @@ Note that the estimate for `gender` is now called `gendermale`. You'll see this 
 
 As a result, for female professors, the parameter estimate is multiplied by zero, leaving the intercept and slope form familiar from simple regression.
 
-\[
-  \begin{aligned}
-\widehat{score} &= \hat{\beta}_0 + \hat{\beta}_1 \times bty\_avg + \hat{\beta}_2 \times (0) \\
-&= \hat{\beta}_0 + \hat{\beta}_1 \times bty\_avg\end{aligned}
-\]
+
 
 <!-- We can plot this line and the line corresponding to those with color pictures
 with the following  -->
@@ -298,12 +294,12 @@ ggplot(data = evals, aes(x = bty_avg, y = score, color = pic_color)) +
     by 1.) For two professors who received the same beauty rating, which color 
     picture tends to have the higher course evaluation score?
 
-**score = β0 + β1xbty_avg + β2xpic_color**
+**score = b0 + b1xbty_avg + b2xpic_color**
 **score = 4.06318 + 0.05548xbty_avg + -0.16059xpic_color**
 
 **For two professors who received the same beauty rating, black and white pictures tends to have the higher course evaluation score**
 
-```{r scatter-score-bty_avg_pic-color}
+```{r }
 m_bty_gen <- lm(score ~ bty_avg + pic_color, data = evals)
 summary(m_bty_gen)
 ```
@@ -317,7 +313,7 @@ The decision to call the indicator variable `gendermale` instead of `genderfemal
 
 **It codes them as ranktenure track and ranktenured, with teaching as the reference level**
 
-```{r scatter-score-bty_avg_pic-color}
+```{r}
 m_bty_gen <- lm(score ~ bty_avg + rank, data = evals)
 summary(m_bty_gen)
 ```
@@ -332,7 +328,7 @@ We will start with a full model that predicts professor score based on rank, gen
     Why? *Hint:* Think about which variable would you expect to not have any 
     association with the professor score.
     
-```{r}
+```{r, eval=FALSE}
 ?evals
 ```
     
@@ -390,10 +386,49 @@ m_backwards_selection <- lm(score ~ gender + ethnicity + language + age + cls_pe
 summary(m_backwards_selection)
 ```
 
+```{r}
+ggplot
+
+```
+
+
+
 16. Verify that the conditions for this model are reasonable using diagnostic 
     plots.
 
 **Insert your answer here**
+
+
+**(1) linearity: The residuals seem vaguely linear, but I'm a bit confused at the tilt that seems to be happening**
+
+```{r}
+ggplot(data = m_backwards_selection, aes(x = .fitted, y = .resid)) +
+  geom_point() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  xlab("Fitted values") +
+  ylab("Residuals")
+```
+
+
+**(2) nearly normal residuals: i think it looks nearly normal**
+```{r}
+ggplot(data = m_backwards_selection, aes(sample = .resid)) +
+  stat_qq() +
+  stat_qq_line()
+```
+
+
+**(3) constant variability: the residual errors have close to a mean value of zero **
+```{r}
+ggplot(data = m_backwards_selection, aes(x = .fitted, y = .resid)) +
+  geom_point() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  xlab("Fitted values") +
+  ylab("Residuals") +
+  geom_smooth() +
+  geom_smooth(method="lm", se = FALSE, color="green")
+```
+
 
 17. The original paper describes how these data were gathered by taking a
     sample of professors from the University of Texas at Austin and including 
@@ -401,15 +436,16 @@ summary(m_backwards_selection)
     course, could this new information have an impact on any of the conditions 
     of linear regression?
 
-**Insert your answer here**
+**One of the conditions of linear regression is that each observation is independent of the others. Considering the sample includes all courses each professor taught and each row represents a course, there may be repeated courses from the same professors, this would violate our assumption**
+
 
 18. Based on your final model, describe the characteristics of a professor and 
     course at University of Texas at Austin that would be associated with a high
     evaluation score.
 
-**a young beautiful male non-minority professor teaching a 1 credit course, who studied at an english school, and has black and white picture , and had large proportion of the class give evaluations**
+**a young beautiful male non-minority professor teaching a 1 credit course, who studied at an english school, and has a black and white picture, and had a large proportion of their class give evaluations**
 
-```{r}
+```{r, eval=FALSE}
 ?evals
 ```
 
@@ -417,7 +453,7 @@ summary(m_backwards_selection)
 19. Would you be comfortable generalizing your conclusions to apply to professors
     generally (at any university)? Why or why not?
 
-**Insert your answer here**
+**I would not be comfortable generalizing my conclusions to apply to professors generally at any university, as it may not be accurately representative of the broader professor population. I would be much more comfortable generalizing if our data was from a broader random sample of professors, rather than just from one school.**
 
 
 * * *
