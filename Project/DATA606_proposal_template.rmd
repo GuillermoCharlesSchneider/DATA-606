@@ -1,0 +1,197 @@
+---
+title: "DATA 606 Data Project Proposal"
+author: "null"
+output: pdf_document
+---
+
+### Data Preparation
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(dplyr)
+library(Hmisc)
+```
+
+
+
+
+```{r setup, echo=TRUE, results='hide', warning=FALSE, message=FALSE}
+# load data
+WorksiteMeetings <- read.csv("WorksiteMeetings.csv") 
+```
+
+```{r}
+glimpse(WorksiteMeetings)
+```
+
+```{r}
+summary(WorksiteMeetings)
+```
+
+```{r}
+WorksiteMeetings$datecreated <- mdy(WorksiteMeetings$datecreated)
+```
+
+```{r}
+WorksiteMeetings$memberCount <- as.numeric(WorksiteMeetings$memberCount)
+WorksiteMeetings$ADFcount <- as.numeric(WorksiteMeetings$ADFcount)
+WorksiteMeetings$turnoutcount <- as.numeric(WorksiteMeetings$turnoutcount)
+```
+**New fields for turnout percentage and ADF percentage of building**
+**POSSIBLE PROBLEM: there are 4 buildings with a percent higher than 100%, this could happen if the roster size changed since the event happened. these are all in smaller buildings, i think i will just count them as 100%, as they're off by 1 or 2 and they got the entire size of the current building to come to event. this could be an issue with other buildings that i cant detect under 100%, but i dont have a better way to compare each individual roster size at that time of the event, so i'm using the current roster as a proxy, building rosters ~usually~ stay around the same size**
+```{r}
+WorksiteMeetings$ADFPercentage <- (WorksiteMeetings$ADFcount / WorksiteMeetings$memberCount)
+WorksiteMeetings$TurnoutPercentage <- (WorksiteMeetings$turnoutcount / WorksiteMeetings$memberCount)
+```
+
+Replace those >100% with 100%
+```{r}
+WorksiteMeetings$TurnoutPercentage <-replace(WorksiteMeetings$TurnoutPercentage, WorksiteMeetings$TurnoutPercentage>1, 1) 
+
+```
+
+
+### Context 
+I work as a Data Analyst at 32BJ Labor Union. Alot of our members are in NYC, 
+but we do have members all down the East Coast (although I may analyze just the 
+NYC ones for this one). Our Union Representatives hold Worksite Meetings at 
+buildings to meet with Union Members, and we been tracking this for the past 10 
+years. But recently in the past 2 years we've been tracking member attendance digitally
+with our app (scanning member id cards), which we hope will be much more 
+accurate. I will be just using this data from the past 2 years.
+We are curious if having these meetings effects members union activity (event 
+turnout etc), or political donations (ADF--American Dream Fund)
+
+### Research question 
+
+**You should phrase your research question in a way that matches up with the scope of inference your dataset allows for.**
+
+Can we predict member turnout percentage for membership meetings?
+
+turnout percentage ~ divisionName + membercount + ADFCount + city 
+
+
+### Cases 
+
+**What are the cases, and how many are there?**
+
+There have been 577 worksite meetings in the past year in New York
+
+### Data collection 
+
+**Describe the method of data collection.**
+
+Data is self-collected. I wrote the SQL query from our union database. The worksite meetings are inputted by our Field reps scanning member ids using our app.
+
+### Type of study 
+
+**What type of study is this (observational/experiment)?**
+
+This is an observational study.
+
+### Data Source 
+
+**If you collected the data, state self-collected. If not, provide a citation/link.**
+
+Self-collected.
+
+
+
+### Describe your variables?
+
+**Are they quantitative or qualitative**
+
+quantitative
+
+**If you are are running a regression or similar model, which one is your dependent variable?**
+
+turnout percentage is my dependent variable
+
+
+### Relevant summary statistics 
+
+**Provide summary statistics for each the variables. Also include appropriate visualizations related to your research question (e.g. scatter plot, boxplots, etc). This step requires the use of R, hence a code chunk is provided below. Insert more code chunks as needed.**
+
+```{r}
+t <- sort(table(WorksiteMeetings$v3accountid), decreasing = TRUE)
+```
+
+**v3accountid: Number of times a site was visited through the year, most locations were only visited once.**
+```{r}
+describe(t)
+```
+
+**divisionName: Residential and Commercial buildings are our biggest divisions, this makes sense to me.**
+```{r}
+table(WorksiteMeetings$divisionName)
+```
+**v3fieldrepname**
+```{r}
+sort(table(WorksiteMeetings$v3fieldrepname),decreasing = TRUE)
+```
+**v3fieldrepname and divisionName**
+```{r}
+table(WorksiteMeetings$v3fieldrepname,WorksiteMeetings$divisionName)
+```
+**MemberCount is the roster size at that building. We represent lots of single doorman buildings, and smaller buildings with just a few cleaning staff, but we do have some larger 100+ person buildings**
+```{r}
+describe(WorksiteMeetings$memberCount)
+```
+
+
+```{r}
+ggplot(WorksiteMeetings, aes(x=memberCount)) + geom_histogram()
+```
+
+**turnoutcount: Turnout at that individual event. Distribution is looking similar to building size, makes sense**
+```{r}
+describe(WorksiteMeetings$turnoutcount)
+```
+```{r}
+ggplot(WorksiteMeetings, aes(x=turnoutcount)) + geom_histogram()
+```
+
+**TurnoutPercentage: percent of building that went to an event. There are alot of 1 person buildings, with 1 person attending for 100% attendance. I want to do something to account for turnout size, those bigger buildings with only 50% still have a huge number of ppl turn out. I should also probably use a log regression for my 0-1 scale.**
+```{r}
+ggplot(WorksiteMeetings, aes(x=TurnoutPercentage)) + geom_histogram() +xlim(0,1.1)
+```
+**ADF Percentage, percentage of members paying into our political fund (we usually assume this people are more likely to be politically and union involved). happy to see a more normal distribution. again there are those 1 person buildings with that 1 member paying for 100% rate.**
+```{r}
+ggplot(WorksiteMeetings, aes(x=ADFPercentage)) + geom_histogram() +xlim(0,1.1)
+```
+
+
+**DateCreated: is the date the event happened. Unsure if i remember what exactly happening in April to cause the big spike in the spring, i know we had a few buildings try to forcefully switch to non-union staff this spring which caused some commotion, that could've been when reps were checking in more with those buildings?**
+```{r}
+ggplot(WorksiteMeetings, aes(x=datecreated)) + geom_histogram()
+```
+
+
+REGRESSION STUFF:
+
+
+
+LINEAR MODEL:
+```{r}
+turnout <- lm(TurnoutPercentage ~ divisionName + memberCount + ADFPercentage, data = WorksiteMeetings)
+summary(turnout)
+```
+""their variability changes as the proportion changes1 and as the sample size changes; consequently the results are heteroskedastic and generally nonlinear."" Note that count proportions are bounded between 0 and 1, and their variability changes as the proportion changes1 and as the sample size changes; consequently the results are heteroskedastic and generally nonlinear. (So linear regression might not be a great idea, for example.)
+
+The usual approach for this sort of situation is some form of binomial regression, like logistic regression for example."
+
+
+```{r}
+log_turnout <- glm(TurnoutPercentage ~ divisionName + memberCount + ADFPercentage, data = WorksiteMeetings,family = "binomial")
+summary(log_turnout)
+```
+google how to interpret log regressions
+
+Member Count: for every 100 people at a location, we expect 1.1% less turnout?
+ADFPercentage: for every 10% more of ADFPercentage you get at a building, we expect 15% more turnout at a worksite meeting
+
+
+thats okay: "The intercept isn't significant because there isn't sufficient statistical evidence that it's different from zero"
+
+
