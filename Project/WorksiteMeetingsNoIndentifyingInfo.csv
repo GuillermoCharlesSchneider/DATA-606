@@ -1,0 +1,578 @@
+unionEventID,v3accountid,campaignTypeID,districtID,districtName,subdivisionid,divisionName,eventname,turnoutcount,datecreated,employerID,memberCount,ADFcount
+19413,64787,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1 Broadway-Master RAB created by Sam Resheff on 2024-01-12",0,1/12/2024,886,11,6
+19417,56700,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K211-New York City Sch created by Tyrae Allen on 2024-01-16,0,1/16/2024,2339,5,1
+19420,59692,25,5,New York Metro,46,NY Commercial,Worksite meeting at SOLOW BUILDING CO.-9 West 57th Street-Master RAB C created by Rosayri Perez on 2024-01-16,45,1/16/2024,9957,69,31
+19423,47374,25,5,New York Metro,46,NY Commercial,"Worksite meeting at PBM, LLC-437 Madison Avenue-Master RAB NYC Contrac created by Arlind Lela on 2024-01-17",15,1/17/2024,4695,25,8
+19424,46344,25,5,New York Metro,46,NY Commercial,Worksite meeting at RXR HB Owner LLC-230 Park Avenue-Master RAB Commer created by Arlind Lela on 2024-01-17,23,1/17/2024,5659,41,10
+19427,15273,25,5,New York Metro,46,NY Commercial,Worksite meeting at BROADWAY 280 PARK FEE LLC-280 Park Avenue East-Mas created by Arlind Lela on 2024-01-18,31,1/18/2024,2969,48,10
+19434,39055,25,5,New York Metro,47,NY Residential,Worksite meeting at THE TOWNSEND HOUSE CORP-176 East 71st Street-Maste created by Vincent Roveccio on 2024-01-18,4,1/18/2024,11053,14,2
+19435,52881,25,5,New York Metro,47,NY Residential,Worksite meeting at SUPREME CO 1 LLC-225 East 70th Street-Master RAB R created by Vincent Roveccio on 2024-01-18,1,1/18/2024,10069,1,NULL
+19436,33448,25,5,New York Metro,47,NY Residential,Worksite meeting at SUPREME CO 1 LLC-225 East 70th Street-Master RAB A created by Vincent Roveccio on 2024-01-18,1,1/18/2024,10069,7,2
+19437,56655,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K160-New York City Sch created by Evan  Lambert on 2024-01-18,4,1/18/2024,2339,4,2
+19438,36977,25,5,New York Metro,47,NY Residential,Worksite meeting at 140 E 56TH ST CONDO-140 East 56th Street-Master RA created by Adem Kajosaj on 2024-01-18,1,1/18/2024,10991,1,1
+19439,36978,25,5,New York Metro,47,NY Residential,Worksite meeting at 140 E 56TH ST CONDO-140 East 56th Street-Master RA created by Adem Kajosaj on 2024-01-18,2,1/18/2024,10991,8,2
+19440,38170,25,5,New York Metro,47,NY Residential,Worksite meeting at Rudin East 55th Street LLC-136 East 55th Street-Ma created by Adem Kajosaj on 2024-01-18,5,1/18/2024,632,14,5
+19441,33156,25,5,New York Metro,47,NY Residential,Worksite meeting at 209 EAST 56TH STREET APARTMENT-209 East 56th Stree created by Adem Kajosaj on 2024-01-18,2,1/18/2024,10723,8,2
+19442,56673,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K180-New York City Sch created by Evan  Lambert on 2024-01-18,3,1/18/2024,2339,7,3
+19449,17074,25,5,New York Metro,46,NY Commercial,Worksite meeting at Vornado Realty Trust-640 5th Avenue-Master RAB NYC created by Rosayri Perez on 2024-01-19,8,1/19/2024,8640,11,5
+19450,28519,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-620 8th Avenue created by Michael DeFreitas on 2024-01-19,7,1/19/2024,4226,36,14
+19453,34628,25,5,New York Metro,47,NY Residential,Worksite meeting at RESIDENTIAL SECTION OF PLAZA CONDOMINIUM-768 5th A created by Adem Kajosaj on 2024-01-22,3,1/22/2024,3425,21,6
+19454,38799,25,5,New York Metro,47,NY Residential,Worksite meeting at RESIDENTIAL SECTION OF PLAZA CONDOMINIUM-768 5th A created by Adem Kajosaj on 2024-01-22,1,1/22/2024,3425,3,1
+19455,68380,25,5,New York Metro,47,NY Residential,Worksite meeting at 200 Amsterdam Condominium-200 Amsterdam Avenue-200 created by William Laburda on 2024-01-22,4,1/22/2024,2697,16,5
+19456,38558,25,5,New York Metro,47,NY Residential,Worksite meeting at 500 PARK TOWER CONDO-500 Park Avenue-Master RAB Re created by Adem Kajosaj on 2024-01-22,1,1/22/2024,6812,1,NULL
+19457,45209,25,5,New York Metro,47,NY Residential,Worksite meeting at 500 PARK TOWER CONDO-500 Park Avenue-Master RAB Ap created by Adem Kajosaj on 2024-01-22,4,1/22/2024,6812,14,3
+19458,32181,25,5,New York Metro,47,NY Residential,Worksite meeting at EAST 57TH STREET LLC-150 East 57th Street-Master R created by Adem Kajosaj on 2024-01-22,2,1/22/2024,6271,10,5
+19459,38633,25,5,New York Metro,47,NY Residential,Worksite meeting at 235 EAST 57TH STREET APARTMENT CORP-235 East 57th  created by Adem Kajosaj on 2024-01-22,1,1/22/2024,5997,8,1
+19460,52621,25,5,New York Metro,47,NY Residential,Worksite meeting at 252 CONDOMINIUM-252 East 57th Street-Master RAB Ap created by Adem Kajosaj on 2024-01-22,4,1/22/2024,10051,25,15
+19461,20456,25,5,New York Metro,47,NY Residential,Worksite meeting at 225 EAST 57TH STREET OWNERS INC.-225 East 57th Str created by Adem Kajosaj on 2024-01-22,1,1/22/2024,212,12,2
+19462,22497,25,5,New York Metro,47,NY Residential,Worksite meeting at PLACE 57 CONDO ASSOCAITES-207 East 57th Street-Mas created by Adem Kajosaj on 2024-01-22,1,1/22/2024,975,1,NULL
+19463,22499,25,5,New York Metro,47,NY Residential,Worksite meeting at PLACE 57 CONDO ASSOCAITES-207 East 57th Street-Mas created by Adem Kajosaj on 2024-01-22,2,1/22/2024,975,6,2
+19465,28396,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-11 West 53rd S created by Rosayri Perez on 2024-01-22,9,1/22/2024,4226,28,9
+19466,68444,25,5,New York Metro,46,NY Commercial,Worksite meeting at GDI Services Inc.-33 Liberty Street-Master RAB NYC created by Heidy Tavarez on 2024-01-23,9,1/23/2024,10990,23,8
+19467,68433,25,5,New York Metro,46,NY Commercial,Worksite meeting at GDI Services Inc.-11 John Street-Master RAB NYC Co created by Heidy Tavarez on 2024-01-23,8,1/23/2024,10990,44,10
+19475,32752,25,5,New York Metro,46,NY Commercial,"Worksite meeting at 277 PARK AVENUE, LLC-277 Park Avenue-Master RAB Co created by Arlind Lela on 2024-01-23",43,1/23/2024,193,88,16
+19480,56722,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K235-New York City Sch created by Evan  Lambert on 2024-01-24,1,1/24/2024,2339,4,3
+19481,56636,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K135-New York City Sch created by Evan  Lambert on 2024-01-24,1,1/24/2024,2339,2,1
+19482,56731,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K244-New York City Sch created by Evan  Lambert on 2024-01-24,5,1/24/2024,2339,4,NULL
+19489,69952,25,5,New York Metro,46,NY Commercial,Worksite meeting at HARVARD MAINTENANCE-1 Liberty Plaza-Master NYC Ind created by Heidy Tavarez on 2024-01-24,49,1/24/2024,1423,64,35
+19496,56825,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K415-New York City Sch created by Evan  Lambert on 2024-01-25,4,1/25/2024,2339,8,5
+19497,56765,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K285-New York City Sch created by Evan  Lambert on 2024-01-25,3,1/25/2024,2339,6,3
+19502,69263,25,5,New York Metro,46,NY Commercial,"Worksite meeting at Triangle Services, Inc-345 Park Avenue-Master RAB  created by Arlind Lela on 2024-01-25",49,1/25/2024,4226,69,20
+19503,63394,25,5,New York Metro,46,NY Commercial,Worksite meeting at Blackstone Consulting Inc-277 Park Avenue-Master N created by Arlind Lela on 2024-01-25,16,1/25/2024,1672,32,11
+19504,13805,25,5,New York Metro,47,NY Residential,Worksite meeting at 30 LINCOLN PLAZA CONDO-30 Lincoln Plaza-Master RAB created by Billy Laburda on 2024-01-25,1,1/25/2024,11388,1,1
+19505,13806,25,5,New York Metro,47,NY Residential,Worksite meeting at 30 LINCOLN PLAZA CONDO-30 Lincoln Plaza-Master RAB created by Billy Laburda on 2024-01-25,2,1/25/2024,11388,29,6
+19507,32870,25,5,New York Metro,46,NY Commercial,"Worksite meeting at 299 CLEANING SERVICE CO., L.P.-299 PARK AVENUE-Mas created by Arlind Lela on 2024-01-25",25,1/25/2024,3138,46,5
+19508,35392,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-383 Madison Avenue-Ma created by Rosayri Perez on 2024-01-25",32,1/25/2024,886,87,49
+19509,46694,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-1166 6th Avenu created by Rosayri Perez on 2024-01-25,31,1/25/2024,4226,55,20
+19512,18603,25,5,New York Metro,46,NY Commercial,Worksite meeting at THE SHUBERT ORGANIZATION INC.-234-236 West 44th St created by Kimberly Eyssen on 2024-01-26,3,1/26/2024,7304,7,3
+19513,20077,25,5,New York Metro,46,NY Commercial,Worksite meeting at CARNEGIE HALL CORP.-Carnegie Hall (Ushers)-Carnegi created by Kimberly Eyssen on 2024-01-26,16,1/26/2024,9593,76,8
+19514,20076,25,5,New York Metro,46,NY Commercial,Worksite meeting at CARNEGIE HALL CORP.-Carnegie Hall (Cleaners & Ladi created by Kimberly Eyssen on 2024-01-26,10,1/26/2024,9593,19,3
+19515,48192,25,5,New York Metro,46,NY Commercial,Worksite meeting at Able Building Maintenance-32 West 60th Street-Mast created by Kimberly Eyssen on 2024-01-26,4,1/26/2024,586,19,5
+19518,32700,25,5,New York Metro,46,NY Commercial,Worksite meeting at THE STATE-WHITEHALL COMPANY-1 Battery Park Plaza-M created by Nancy Engel on 2024-01-26,3,1/26/2024,4456,3,2
+19519,32700,25,5,New York Metro,46,NY Commercial,Worksite meeting at THE STATE-WHITEHALL COMPANY-1 Battery Park Plaza-M created by Nancy Engel on 2024-01-26,2,1/26/2024,4456,3,2
+19524,32971,25,5,New York Metro,47,NY Residential,Worksite meeting at 1235 PARK CONDOMINIUM-1235 Park Avenue-Master RAB  created by Dem Kukic on 2024-01-29,2,1/29/2024,6067,8,2
+19525,37265,25,5,New York Metro,47,NY Residential,Worksite meeting at 56TH REALTY LLC-300 East 56th Street-Master RAB Ap created by Adem Kajosaj on 2024-01-29,3,1/29/2024,6495,25,16
+19526,33037,25,5,New York Metro,47,NY Residential,Worksite meeting at 84TH STREET TENANTS CORP-144 East 84th Street-Mast created by Shea Barry on 2024-01-29,2,1/29/2024,9498,5,3
+19527,33036,25,5,New York Metro,47,NY Residential,Worksite meeting at 84TH STREET TENANTS CORP-144 East 84th Street-Mast created by Shea Barry on 2024-01-29,1,1/29/2024,9498,1,NULL
+19530,31453,25,5,New York Metro,47,NY Residential,Worksite meeting at 1225 PARK AVENUE-1225 Park Avenue-Master RAB Apart created by Dem Kukic on 2024-01-29,1,1/29/2024,3014,12,3
+19531,34496,25,5,New York Metro,47,NY Residential,Worksite meeting at EVANS TOWER CONDOMINUM-171 East 84th Street-Master created by Shea Barry on 2024-01-29,1,1/29/2024,11552,1,NULL
+19532,34497,25,5,New York Metro,47,NY Residential,Worksite meeting at EVANS TOWER CONDOMINUM-171 East 84th Street-Master created by Shea Barry on 2024-01-29,2,1/29/2024,11552,18,6
+19533,68569,25,5,New York Metro,47,NY Residential,Worksite meeting at Park Hill Tenants Corporation-1199 Park Avenue-Mas created by Dem Kukic on 2024-01-29,4,1/29/2024,1613,13,NULL
+19534,68570,25,5,New York Metro,47,NY Residential,Worksite meeting at Park Hill Tenants Corporation-1199 Park Avenue-Mas created by Dem Kukic on 2024-01-29,1,1/29/2024,1613,1,NULL
+19535,67250,25,5,New York Metro,47,NY Residential,Worksite meeting at UG2 LLC-1065 2ND AVENUE-Master RAB Apartment Build created by Adem Kajosaj on 2024-01-29,2,1/29/2024,4239,7,5
+19538,40357,25,5,New York Metro,47,NY Residential,Worksite meeting at 1185 TENANTS CORP-1185 Park Avenue-Master RAB Apar created by Dem Kukic on 2024-01-29,5,1/29/2024,3620,37,4
+19539,32109,25,5,New York Metro,47,NY Residential,Worksite meeting at CARNEGIE HILL 87TH STREET CORP-47 East 87th Street created by Shea Barry on 2024-01-29,1,1/29/2024,761,1,1
+19540,32110,25,5,New York Metro,47,NY Residential,Worksite meeting at CARNEGIE HILL 87TH STREET CORP-47 East 87th Street created by Shea Barry on 2024-01-29,3,1/29/2024,761,7,3
+19541,34605,25,5,New York Metro,47,NY Residential,Worksite meeting at PARK AND 93RD OWNERS CORP-1167-75 Park Avenue-Mast created by Dem Kukic on 2024-01-29,2,1/29/2024,8415,12,3
+19542,13439,25,5,New York Metro,47,NY Residential,Worksite meeting at 1060 OWNERS INC.-1060 Park Avenue-Master RAB Apart created by Shea Barry on 2024-01-29,1,1/29/2024,3941,10,1
+19543,38402,25,5,New York Metro,47,NY Residential,Worksite meeting at 1165 PARK AVE. INC.-1157-65 Park Avenue-Master RAB created by Dem Kukic on 2024-01-29,3,1/29/2024,3000,15,3
+19546,39309,25,5,New York Metro,47,NY Residential,"Worksite meeting at 170 East 83rd St., LLC-170 East 83rd Street-Master created by Shea Barry on 2024-01-29",1,1/29/2024,3945,NULL,NULL
+19547,39310,25,5,New York Metro,47,NY Residential,"Worksite meeting at 170 East 83rd St., LLC-170 East 83rd Street-Master created by Shea Barry on 2024-01-29",2,1/29/2024,3945,NULL,NULL
+19552,52622,25,5,New York Metro,47,NY Residential,Worksite meeting at 252 CONDOMINIUM-252 East 57th Street-Master RAB Re created by Adem Kajosaj on 2024-01-29,1,1/29/2024,10051,1,NULL
+19553,52621,25,5,New York Metro,47,NY Residential,Worksite meeting at 252 CONDOMINIUM-252 East 57th Street-Master RAB Ap created by Adem Kajosaj on 2024-01-29,10,1/29/2024,10051,25,15
+19554,38361,25,5,New York Metro,47,NY Residential,Worksite meeting at 220 EAST 57TH STREET-220 East 57th Street-Master R created by Adem Kajosaj on 2024-01-29,1,1/29/2024,10704,9,2
+19555,38591,25,5,New York Metro,47,NY Residential,Worksite meeting at 220 EAST 57TH STREET-220 East 57th Street-Master R created by Adem Kajosaj on 2024-01-29,1,1/29/2024,10704,1,NULL
+19558,32869,25,5,New York Metro,46,NY Commercial,"Worksite meeting at PLAZA CLEANING SERVICE CO., L.P.-55 East 52nd Stre created by Arlind Lela on 2024-01-30",18,1/30/2024,5686,36,3
+19560,29452,25,5,New York Metro,47,NY Residential,Worksite meeting at 425 E 86TH APTS CORP-423-429 East 86th Street-Mast created by Shea Barry on 2024-01-30,3,1/30/2024,3721,7,1
+19561,29451,25,5,New York Metro,47,NY Residential,Worksite meeting at 425 E 86TH APTS CORP-423-429 East 86th Street-Mast created by Shea Barry on 2024-01-30,1,1/30/2024,3721,1,NULL
+19562,37259,25,5,New York Metro,47,NY Residential,Worksite meeting at 445/86 OWNERS CORP-445 East 86th Street-Master RAB created by Shea Barry on 2024-01-30,1,1/30/2024,9107,8,5
+19563,39037,25,5,New York Metro,47,NY Residential,Worksite meeting at FAIRMONT TENANTS CORP-401 East 86th Street-Master  created by Shea Barry on 2024-01-30,1,1/30/2024,4438,1,1
+19564,31670,25,5,New York Metro,47,NY Residential,Worksite meeting at 250 EAST 87TH OWNERS CORP-250 East 87th Street-Mas created by Shea Barry on 2024-01-30,3,1/30/2024,9523,19,5
+19565,34090,25,5,New York Metro,47,NY Residential,Worksite meeting at 27 VICTORIA OWNERS CORP-200 East 27th Street-Maste created by Esteban Flores on 2024-01-30,1,1/30/2024,10584,10,3
+19566,36849,25,5,New York Metro,47,NY Residential,Worksite meeting at 145 EAST 27TH STREET CO LLC-145 East 27th Street-M created by Esteban Flores on 2024-01-30,1,1/30/2024,6535,7,5
+19568,40673,25,5,New York Metro,46,NY Commercial,"Worksite meeting at 11 WEST 42 REALTY INVESTORS, LLC-11 West 42nd Stre created by Rosayri Perez on 2024-01-30",23,1/30/2024,9828,40,19
+19584,27849,25,5,New York Metro,46,NY Commercial,Worksite meeting at Pritchard Industries Inc-767 5th Avenue-Master RAB created by Arlind Lela on 2024-02-01,33,2/1/2024,7369,68,26
+19612,56709,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K222-New York City Sch created by Michael DeFreitas on 2024-02-01,2,2/1/2024,2339,4,2
+19613,56709,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K222-New York City Sch created by Michael DeFreitas on 2024-02-01,2,2/1/2024,2339,4,2
+19614,56709,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K222-New York City Sch created by Michael DeFreitas on 2024-02-01,2,2/1/2024,2339,4,2
+19616,27003,25,5,New York Metro,47,NY Residential,Worksite meeting at WEINREB MANAGEMENT-110 East End Avenue-Master RAB  created by Shea Barry on 2024-02-01,3,2/1/2024,9520,8,2
+19621,33947,25,5,New York Metro,47,NY Residential,Worksite meeting at 125 EAST 84TH ST CORP-125 East 84th Street-Master  created by Shea Barry on 2024-02-01,4,2/1/2024,4319,6,3
+19623,62389,25,5,New York Metro,46,NY Commercial,Worksite meeting at Quality Building Services Corp (QBS)-641-645 5th A created by Rosayri Perez on 2024-02-01,11,2/1/2024,3475,18,7
+19628,13377,25,5,New York Metro,47,NY Residential,Worksite meeting at OLYMPIC TOWER CONDOMINIUM-641-645 5th Avenue-Maste created by Adem Kajosaj on 2024-02-05,4,2/5/2024,1753,34,7
+19629,32709,25,5,New York Metro,47,NY Residential,Worksite meeting at 251 EAST 51 STREET CORP-243-51 East 51st Street-Ma created by Adem Kajosaj on 2024-02-05,1,2/5/2024,2270,1,NULL
+19630,32710,25,5,New York Metro,47,NY Residential,Worksite meeting at 251 EAST 51 STREET CORP-243-51 East 51st Street-Ma created by Adem Kajosaj on 2024-02-05,1,2/5/2024,2270,9,4
+19631,55708,25,5,New York Metro,47,NY Residential,Worksite meeting at CLARIDGE HOUSE LLC-201 East 87th Street-Master RAB created by Shea Barry on 2024-02-05,3,2/5/2024,10659,26,2
+19632,34066,25,5,New York Metro,47,NY Residential,Worksite meeting at 235 PLYMOUTH HOUSE OWNERS-235 East 87th Street-Mas created by Shea Barry on 2024-02-05,2,2/5/2024,8834,9,3
+19633,32293,25,5,New York Metro,47,NY Residential,Worksite meeting at KBL 51ST  STREET  LIMITED PARTNERSHIP-300 East 51s created by Adem Kajosaj on 2024-02-05,1,2/5/2024,5607,1,NULL
+19634,32294,25,5,New York Metro,47,NY Residential,Worksite meeting at KBL 51ST  STREET  LIMITED PARTNERSHIP-300 East 51s created by Adem Kajosaj on 2024-02-05,1,2/5/2024,5607,7,2
+19635,34490,25,5,New York Metro,47,NY Residential,Worksite meeting at EAST 84TH STREET APARTMENT CORP-444 East 84th Stre created by Shea Barry on 2024-02-05,1,2/5/2024,5781,NULL,NULL
+19636,34491,25,5,New York Metro,47,NY Residential,Worksite meeting at EAST 84TH STREET APARTMENT CORP-444 East 84th Stre created by Shea Barry on 2024-02-05,1,2/5/2024,5781,6,2
+19637,61311,25,5,New York Metro,47,NY Residential,Worksite meeting at 70 Vestry Condo.-70 Vestry Street-Master RAB Apart created by Mateo Daija on 2024-02-05,4,2/5/2024,1194,15,5
+19638,39309,25,5,New York Metro,47,NY Residential,"Worksite meeting at 170 East 83rd St., LLC-170 East 83rd Street-Master created by Shea Barry on 2024-02-05",1,2/5/2024,3945,NULL,NULL
+19639,39310,25,5,New York Metro,47,NY Residential,"Worksite meeting at 170 East 83rd St., LLC-170 East 83rd Street-Master created by Shea Barry on 2024-02-05",3,2/5/2024,3945,NULL,NULL
+19641,33155,25,5,New York Metro,47,NY Residential,Worksite meeting at 209 EAST 56TH STREET APARTMENT-209 East 56th Stree created by Adem Kajosaj on 2024-02-05,1,2/5/2024,10723,1,NULL
+19642,33156,25,5,New York Metro,47,NY Residential,Worksite meeting at 209 EAST 56TH STREET APARTMENT-209 East 56th Stree created by Adem Kajosaj on 2024-02-05,2,2/5/2024,10723,8,2
+19643,36933,25,5,New York Metro,47,NY Residential,Worksite meeting at CAPRICE ASSOCIATES-320 East 58th Street-Master RAB created by Adem Kajosaj on 2024-02-05,2,2/5/2024,2387,7,3
+19644,36932,25,5,New York Metro,47,NY Residential,Worksite meeting at CAPRICE ASSOCIATES-320 East 58th Street-Master RAB created by Adem Kajosaj on 2024-02-05,1,2/5/2024,2387,1,NULL
+19645,30270,25,5,New York Metro,47,NY Residential,Worksite meeting at 319 EAST 50TH ST. OWNERS CORP-319 East 50th Street created by Adem Kajosaj on 2024-02-05,2,2/5/2024,7928,6,2
+19653,33906,25,5,New York Metro,47,NY Residential,Worksite meeting at 11 EAST 86TH STREET CORP-11 East 86th Street-Maste created by Shea Barry on 2024-02-06,1,2/6/2024,6424,8,2
+19654,31705,25,5,New York Metro,47,NY Residential,Worksite meeting at 30 EAST 85TH STREET CONDOMINIUM-30 East 85th Stree created by Shea Barry on 2024-02-06,4,2/6/2024,7360,14,1
+19655,39026,25,5,New York Metro,47,NY Residential,Worksite meeting at 83RD STREET TENANTS CORP-8 East 83rd Street-Master created by Shea Barry on 2024-02-06,1,2/6/2024,11221,1,NULL
+19656,39027,25,5,New York Metro,47,NY Residential,Worksite meeting at 83RD STREET TENANTS CORP-8 East 83rd Street-Master created by Shea Barry on 2024-02-06,4,2/6/2024,11221,10,3
+19657,32992,25,5,New York Metro,47,NY Residential,Worksite meeting at 25 EAST 86TH STREET CORP-25 East 86th Street-Maste created by Shea Barry on 2024-02-06,1,2/6/2024,673,1,1
+19658,32993,25,5,New York Metro,47,NY Residential,Worksite meeting at 25 EAST 86TH STREET CORP-25 East 86th Street-Maste created by Shea Barry on 2024-02-06,3,2/6/2024,673,17,NULL
+19659,40241,25,5,New York Metro,47,NY Residential,Worksite meeting at 112 E 83RD STREET TENANTS CORP.-112 East 83rd Stre created by Shea Barry on 2024-02-06,2,2/6/2024,3649,4,1
+19664,56695,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K206-New York City Sch created by Evan  Lambert on 2024-02-06,3,2/6/2024,2339,3,1
+19665,56739,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K254-New York City Sch created by Evan  Lambert on 2024-02-06,2,2/6/2024,2339,2,NULL
+19667,32539,25,5,New York Metro,47,NY Residential,Worksite meeting at STERLING PLAZA CONDO-255 East 49th Street-Master R created by Adem Kajosaj on 2024-02-06,1,2/6/2024,4332,1,NULL
+19668,32540,25,5,New York Metro,47,NY Residential,Worksite meeting at STERLING PLAZA CONDO-255 East 49th Street-Master R created by Adem Kajosaj on 2024-02-06,2,2/6/2024,4332,13,2
+19669,56849,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K495-New York City Sch created by Evan  Lambert on 2024-02-06,3,2/6/2024,2339,6,1
+19670,56849,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K495-New York City Sch created by Evan  Lambert on 2024-02-06,3,2/6/2024,2339,6,1
+19671,57085,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-M465-New York City Sch created by Tyrae Allen on 2024-02-06,5,2/6/2024,2339,12,4
+19676,56961,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-M044-New York City Sch created by Tyrae Allen on 2024-02-06,2,2/6/2024,2339,4,3
+19677,57917,25,5,New York Metro,46,NY Commercial,Worksite meeting at Quality Building Services Corp (QBS)-444 Madison A created by Rosayri Perez on 2024-02-06,7,2/6/2024,3475,10,2
+19678,56545,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K014-New York City Sch created by Evan  Lambert on 2024-02-07,3,2/7/2024,2339,4,1
+19679,52960,25,5,New York Metro,47,NY Residential,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-1-2-3-4 Washin created by Mateo Daija on 2024-02-07,5,2/7/2024,4226,57,20
+19683,54106,25,5,New York Metro,47,NY Residential,Worksite meeting at STEVENSON COMMON AFFORDABLE LLC-755 White Plains R created by Esteban Flores on 2024-02-07,1,2/7/2024,9274,20,12
+19684,59847,25,5,New York Metro,47,NY Residential,"Worksite meeting at STELLAR 2020, LLC-2010-40 Bruckner Boulevard-Maste created by Esteban Flores on 2024-02-07",1,2/7/2024,4277,7,5
+19685,56595,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K075-New York City Sch created by Michael DeFreitas on 2024-02-07,2,2/7/2024,2339,2,1
+19686,17847,25,5,New York Metro,47,NY Residential,"Worksite meeting at JAMIE TOWER HOUSING CO., INC.-633 Olmstead Avenue- created by Esteban Flores on 2024-02-07",1,2/7/2024,6149,14,10
+19688,56966,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-M050-New York City Sch created by Tyrae Allen on 2024-02-07,3,2/7/2024,2339,4,1
+19690,56720,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K233-New York City Sch created by Evan  Lambert on 2024-02-07,3,2/7/2024,2339,4,2
+19691,56623,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K114-New York City Sch created by Evan  Lambert on 2024-02-07,3,2/7/2024,2339,3,NULL
+19692,56807,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K366-New York City Sch created by Evan  Lambert on 2024-02-07,1,2/7/2024,2339,2,NULL
+19693,57001,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-M112-New York City Sch created by Tyrae Allen on 2024-02-07,4,2/7/2024,2339,6,4
+19694,56994,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-M099-New York City Sch created by Tyrae Allen on 2024-02-07,1,2/7/2024,2339,5,2
+19695,56994,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-M099-New York City Sch created by Tyrae Allen on 2024-02-07,2,2/7/2024,2339,5,2
+19696,56807,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K366-New York City Sch created by Evan  Lambert on 2024-02-07,1,2/7/2024,2339,2,NULL
+19700,57589,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-R075-New York City Sch created by Michael DeFreitas on 2024-02-08,0,2/8/2024,2339,6,2
+19701,57589,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-R075-New York City Sch created by Michael DeFreitas on 2024-02-08,0,2/8/2024,2339,6,2
+19702,57234,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q041-New York City Sch created by Mark Espinoza on 2024-02-08,2,2/8/2024,2339,7,3
+19705,57446,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q405-New York City Sch created by Mark Espinoza on 2024-02-08,8,2/8/2024,2339,11,2
+19706,57256,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q067-New York City Sch created by Mark Espinoza on 2024-02-08,3,2/8/2024,2339,4,3
+19712,69264,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1 Battery Park Plaza- created by Nancy Engel on 2024-02-09",2,2/9/2024,9770,24,8
+19739,57358,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q186-New York City Sch created by Mark Espinoza on 2024-02-09,2,2/9/2024,2339,1,NULL
+19740,57956,25,5,New York Metro,46,NY Commercial,Worksite meeting at Quality Building Services Corp (QBS)-1370 6th Aven created by Rosayri Perez on 2024-02-09,8,2/9/2024,3475,11,5
+19761,56624,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K115-New York City Sch created by Evan  Lambert on 2024-02-14,2,2/14/2024,2339,4,1
+19762,56590,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K068-New York City Sch created by Evan  Lambert on 2024-02-14,4,2/14/2024,2339,5,2
+19763,56758,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K276-New York City Sch created by Evan  Lambert on 2024-02-14,2,2/14/2024,2339,3,NULL
+19764,56729,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K242-New York City Sch created by Evan  Lambert on 2024-02-14,1,2/14/2024,2339,2,NULL
+19818,56700,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K211-New York City Sch created by Evan  Lambert on 2024-02-20,0,2/20/2024,2339,5,1
+19821,59520,25,5,New York Metro,46,NY Commercial,Worksite meeting at Innovative Facility Services (IFS)-611 5th Avenue- created by Rosayri Perez on 2024-02-20,6,2/20/2024,1235,42,7
+19848,56596,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K078-New York City Sch created by Evan  Lambert on 2024-02-21,2,2/21/2024,2339,4,2
+19852,56786,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K312-New York City Sch created by Evan  Lambert on 2024-02-21,3,2/21/2024,2339,3,2
+19853,56696,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K207-New York City Sch created by Evan  Lambert on 2024-02-21,2,2/21/2024,2339,5,3
+19856,57929,25,5,New York Metro,46,NY Commercial,Worksite meeting at Quality Building Services Corp (QBS)-1411 Broadway created by Mary Rosario on 2024-02-21,16,2/21/2024,3475,22,7
+19867,68654,25,5,New York Metro,46,NY Commercial,Worksite meeting at FIRST QUALITY MAINTENANCE (FQM)-625 Madison Avenue created by Arlind Lela on 2024-02-22,2,2/22/2024,6456,NULL,NULL
+19868,38804,25,5,New York Metro,46,NY Commercial,Worksite meeting at ROZA 14W LLC-14 Wall Street-Master RAB Commercial  created by Pasquale Follano on 2024-02-22,16,2/22/2024,5699,19,10
+19885,55709,25,5,New York Metro,47,NY Residential,Worksite meeting at The Gretsch Condominium-60 Broadway-Master RAB Res created by Hector Gonzalez on 2024-02-27,1,2/27/2024,117,1,NULL
+19886,56376,25,5,New York Metro,47,NY Residential,Worksite meeting at The Gretsch Condominium-60 Broadway-Master RAB Apa created by Hector Gonzalez on 2024-02-27,3,2/27/2024,117,8,5
+19887,55862,25,5,New York Metro,47,NY Residential,Worksite meeting at Schaefer Landing North Condo-440 KENT AVENUE-440 K created by Hector Gonzalez on 2024-02-27,2,2/27/2024,305,7,4
+19888,55862,25,5,New York Metro,47,NY Residential,Worksite meeting at Schaefer Landing North Condo-440 KENT AVENUE-440 K created by Hector Gonzalez on 2024-02-27,2,2/27/2024,305,7,4
+19889,55590,25,5,New York Metro,47,NY Residential,Worksite meeting at 325 KENT LLC-325 KENT AVENUE-325 Kent Avenue - MOA created by Hector Gonzalez on 2024-02-27,2,2/27/2024,2973,13,6
+19890,66248,25,5,New York Metro,47,NY Residential,Worksite meeting at 260 Kent LLC-1 South 1st Street-260 Kent LLC @ 1 S created by Hector Gonzalez on 2024-02-27,1,2/27/2024,8772,10,3
+19891,66248,25,5,New York Metro,47,NY Residential,Worksite meeting at 260 Kent LLC-1 South 1st Street-260 Kent LLC @ 1 S created by Hector Gonzalez on 2024-02-27,1,2/27/2024,8772,10,3
+19894,61191,25,5,New York Metro,47,NY Residential,Worksite meeting at Williamsburg Housing Preservation L.P.-Williamsbur created by Hector Gonzalez on 2024-02-27,24,2/27/2024,6107,25,6
+19895,61192,25,5,New York Metro,47,NY Residential,Worksite meeting at Williamsburg Housing Preservation L.P.-Williamsbur created by Hector Gonzalez on 2024-02-27,2,2/27/2024,6107,2,2
+19897,39292,25,5,New York Metro,47,NY Residential,Worksite meeting at KENT VILLAGE HOUSING CO INC.-60 Division Avenue-Ma created by Hector Gonzalez on 2024-02-27,2,2/27/2024,6813,21,14
+19898,59977,25,5,New York Metro,47,NY Residential,Worksite meeting at UDR Leonard Pointe LLC-395 Leonard Street-Master R created by Hector Gonzalez on 2024-02-27,1,2/27/2024,8122,5,1
+19899,60641,25,5,New York Metro,47,NY Residential,Worksite meeting at 250 N 10 Owner LLC-250 NORTH 10TH STREET-Master RA created by Hector Gonzalez on 2024-02-27,2,2/27/2024,4541,12,8
+19900,60641,25,5,New York Metro,47,NY Residential,Worksite meeting at 250 N 10 Owner LLC-250 NORTH 10TH STREET-Master RA created by Hector Gonzalez on 2024-02-27,4,2/27/2024,4541,12,8
+19911,57547,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-R021-New York City Sch created by Michael DeFreitas on 2024-02-28,2,2/28/2024,2339,3,2
+19912,57548,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-R022-New York City Sch created by Michael DeFreitas on 2024-02-28,1,2/28/2024,2339,3,3
+19916,61119,25,5,New York Metro,47,NY Residential,Worksite meeting at Hope Gardens I LLC & Bushwick Gardens I LLC-Hope G created by Hector Gonzalez on 2024-02-28,12,2/28/2024,9449,27,11
+19917,61119,25,5,New York Metro,47,NY Residential,Worksite meeting at Hope Gardens I LLC & Bushwick Gardens I LLC-Hope G created by Hector Gonzalez on 2024-02-28,26,2/28/2024,9449,27,11
+19918,61300,25,5,New York Metro,47,NY Residential,Worksite meeting at PBS Facility Services Inc.-146 S. 4TH STREET-Maste created by Hector Gonzalez on 2024-02-28,1,2/28/2024,1338,6,1
+19919,61977,25,5,New York Metro,47,NY Residential,Worksite meeting at PBS Facility Services Inc.-10 Montieth Street-Mast created by Hector Gonzalez on 2024-02-28,3,2/28/2024,1338,7,3
+19967,55240,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-650 5th Avenue created by Rosayri Perez on 2024-03-04,7,3/4/2024,4226,9,3
+19970,66730,25,5,New York Metro,47,NY Residential,"Worksite meeting at Southeast Commercial, LLC-2 Lincoln Square-Master  created by Billy Laburda on 2024-03-05",2,3/5/2024,10047,14,12
+19982,57419,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q297-New York City Sch created by Mark Espinoza on 2024-03-06,2,3/6/2024,2339,2,NULL
+19983,57395,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q230-New York City Sch created by Mark Espinoza on 2024-03-06,1,3/6/2024,2339,3,2
+19987,38432,25,5,New York Metro,47,NY Residential,Worksite meeting at 363 E 76TH STREET CORP-363 East 76th Street-Master created by Scott Cohen on 2024-03-07,1,3/7/2024,3585,1,1
+19988,15388,25,5,New York Metro,47,NY Residential,Worksite meeting at IMPALA CONDOMINIUM ASSOCIATION-400 East 76th Stree created by Scott Cohen on 2024-03-07,1,3/7/2024,9785,1,NULL
+20005,57998,25,5,New York Metro,46,NY Commercial,Worksite meeting at Quality Building Services Corp (QBS)-31 West 52nd  created by Rosayri Perez on 2024-03-08,9,3/8/2024,3475,20,5
+20010,38493,25,5,New York Metro,46,NY Commercial,Worksite meeting at LIBSHAP REALTY-505 8TH AVENUE-Master RAB Commercia created by Michael DeFreitas on 2024-03-11,2,3/11/2024,7261,6,2
+20014,66030,25,5,New York Metro,46,NY Commercial,Worksite meeting at TUCS Cleaning Service-623 8th Ave - Port Authority created by Michael DeFreitas on 2024-03-11,12,3/11/2024,11726,167,50
+20015,65328,25,5,New York Metro,46,NY Commercial,Worksite meeting at TUCS Cleaning Service-623 8th Ave - Port Authority created by Michael DeFreitas on 2024-03-11,1,3/11/2024,11726,6,NULL
+20016,36937,25,5,New York Metro,46,NY Commercial,Worksite meeting at LECHAR REALTY LLC-1441 Broadway-Master RAB Commerc created by Michael DeFreitas on 2024-03-11,1,3/11/2024,10407,11,2
+20026,56851,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K505-New York City Sch created by Michael DeFreitas on 2024-03-12,9,3/12/2024,2339,7,NULL
+20030,56573,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K048-New York City Sch created by Michael DeFreitas on 2024-03-12,2,3/12/2024,2339,2,1
+20042,57554,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-R029-New York City Sch created by Michael DeFreitas on 2024-03-14,1,3/14/2024,2339,3,NULL
+20043,57597,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-R460-New York City Sch created by Michael DeFreitas on 2024-03-14,6,3/14/2024,2339,12,2
+20050,67635,25,5,New York Metro,46,NY Commercial,Worksite meeting at UG2 LLC-424 5th Avenue-Master RAB NYC Contractors  created by Larry  Wilson on 2024-03-14,4,3/14/2024,4239,40,25
+20057,57444,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q400-New York City Sch created by Mark Espinoza on 2024-03-15,3,3/15/2024,2339,6,5
+20058,57340,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q163-New York City Sch created by Mark Espinoza on 2024-03-15,3,3/15/2024,2339,3,NULL
+20059,57342,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q165-New York City Sch created by Mark Espinoza on 2024-03-15,1,3/15/2024,2339,2,2
+20060,57341,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q164-New York City Sch created by Mark Espinoza on 2024-03-15,2,3/15/2024,2339,2,NULL
+20063,57318,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q140-New York City Sch created by Mark Espinoza on 2024-03-15,2,3/15/2024,2339,2,NULL
+20076,63112,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-19 West 44th S created by Rosayri Perez on 2024-03-19,4,3/19/2024,4226,6,4
+20082,40390,25,5,New York Metro,46,NY Commercial,Worksite meeting at Building Maintenance Services (BMS)-650 Madison Av created by Arlind Lela on 2024-03-20,13,3/20/2024,1769,22,6
+20102,38306,25,5,New York Metro,47,NY Residential,Worksite meeting at PRATT TOWERS INC.-333 Lafayette Avenue-Master RAB  created by Hector Gonzalez on 2024-03-25,1,3/25/2024,9590,8,7
+20104,14756,25,5,New York Metro,47,NY Residential,Worksite meeting at ST. JAMES TOWERS INC.-21 St James Place-Master RAB created by Hector Gonzalez on 2024-03-25,4,3/25/2024,8528,7,6
+20108,32621,25,5,New York Metro,47,NY Residential,Worksite meeting at WILLOUGHBY WALK COOP APT.-185 Hall Street-Master R created by Hector Gonzalez on 2024-03-25,5,3/25/2024,10797,17,4
+20109,61253,25,5,New York Metro,47,NY Residential,Worksite meeting at 325 Lafayette Associates LLC-325 Lafayette Avenue- created by Hector Gonzalez on 2024-03-25,2,3/25/2024,534,4,NULL
+20110,61253,25,5,New York Metro,47,NY Residential,Worksite meeting at 325 Lafayette Associates LLC-325 Lafayette Avenue- created by Hector Gonzalez on 2024-03-25,2,3/25/2024,534,4,NULL
+20125,34546,25,5,New York Metro,47,NY Residential,Worksite meeting at JAY CONDO ASSOCIATION-100 Jay Street-Master RAB Ap created by Hector Gonzalez on 2024-03-26,8,3/26/2024,4077,14,9
+20126,67368,25,5,New York Metro,47,NY Residential,Worksite meeting at The Board Of Managers Of The Tower Section Of Fron created by Hector Gonzalez on 2024-03-26,5,3/26/2024,6687,28,8
+20127,67369,25,5,New York Metro,47,NY Residential,Worksite meeting at The Board Of Managers Of The Tower Section Of Fron created by Hector Gonzalez on 2024-03-26,1,3/26/2024,6687,1,NULL
+20128,53960,25,5,New York Metro,47,NY Residential,Worksite meeting at 70 WASHINGTON CONDO.-70 Washington Street-Master R created by Hector Gonzalez on 2024-03-26,1,3/26/2024,9646,11,6
+20129,53960,25,5,New York Metro,47,NY Residential,Worksite meeting at 70 WASHINGTON CONDO.-70 Washington Street-Master R created by Hector Gonzalez on 2024-03-26,2,3/26/2024,9646,11,6
+20130,38655,25,5,New York Metro,47,NY Residential,Worksite meeting at CADMAN PLAZA NORTH INC.-140 Cadman Plaza West-Mast created by Hector Gonzalez on 2024-03-26,1,3/26/2024,1639,7,3
+20131,38620,25,5,New York Metro,47,NY Residential,Worksite meeting at CADMAN PLAZA NORTH INC.-140 Cadman Plaza West-Mast created by Hector Gonzalez on 2024-03-26,1,3/26/2024,1639,1,1
+20132,38655,25,5,New York Metro,47,NY Residential,Worksite meeting at CADMAN PLAZA NORTH INC.-140 Cadman Plaza West-Mast created by Hector Gonzalez on 2024-03-26,1,3/26/2024,1639,7,3
+20133,34707,25,5,New York Metro,47,NY Residential,Worksite meeting at WHITMAN OWNER CORP-75 Henry Street-Master RAB Apar created by Hector Gonzalez on 2024-03-26,1,3/26/2024,10768,13,11
+20138,54036,25,5,New York Metro,47,NY Residential,"Worksite meeting at CITY POINT RESIDENTIAL, LLC-10 City Point-Master R created by Hector Gonzalez on 2024-03-27",2,3/27/2024,8407,17,14
+20139,66903,25,5,New York Metro,47,NY Residential,Worksite meeting at Avanath 7 DeKalb-1 City Point-1 City Point aka 7 D created by Hector Gonzalez on 2024-03-27,1,3/27/2024,2971,9,8
+20140,63171,25,5,New York Metro,47,NY Residential,Worksite meeting at 138 Willoughby Apartment Corp.-138 Willoughby Stre created by Hector Gonzalez on 2024-03-27,2,3/27/2024,10219,17,4
+20143,71050,25,5,New York Metro,47,NY Residential,Worksite meeting at KRE Dekalb Owner LLC-80 Dekalb Avenue-Master RAB A created by Hector Gonzalez on 2024-03-27,3,3/27/2024,5383,1,1
+20144,46912,25,5,New York Metro,47,NY Residential,Worksite meeting at THE BRIDGE STREET CONDOMINIUM-388 BRIDGE STREET-Ma created by Hector Gonzalez on 2024-03-27,2,3/27/2024,10100,18,6
+20145,56479,25,5,New York Metro,47,NY Residential,Worksite meeting at LAWRENCE STREET BORROWER LLC-111 Lawrence Street-M created by Hector Gonzalez on 2024-03-27,9,3/27/2024,11080,18,11
+20146,66304,25,5,New York Metro,47,NY Residential,"Worksite meeting at 18 Sixth Avenue Owner, LLC-18 6TH AVENUE-18 6th Av created by Hector Gonzalez on 2024-03-27",2,3/27/2024,10040,20,14
+20147,66303,25,5,New York Metro,47,NY Residential,"Worksite meeting at 18 Sixth Avenue Owner, LLC-18 6TH AVENUE-Master RA created by Hector Gonzalez on 2024-03-27",1,3/27/2024,10040,3,2
+20148,66304,25,5,New York Metro,47,NY Residential,"Worksite meeting at 18 Sixth Avenue Owner, LLC-18 6TH AVENUE-18 6th Av created by Hector Gonzalez on 2024-03-27",1,3/27/2024,10040,20,14
+20149,66266,25,5,New York Metro,47,NY Residential,Worksite meeting at 662 Pacific Owner LLC-662 Pacific Street-Master RA created by Hector Gonzalez on 2024-03-27,3,3/27/2024,8948,11,7
+20151,57520,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q868-New York City Sch created by Mark Espinoza on 2024-03-27,1,3/27/2024,2339,2,1
+20152,57421,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q312-New York City Sch created by Mark Espinoza on 2024-03-27,1,3/27/2024,2339,2,2
+20153,57445,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q404-New York City Sch created by Mark Espinoza on 2024-03-27,3,3/27/2024,2339,4,1
+20157,66296,25,5,New York Metro,47,NY Residential,Worksite meeting at UG2 LLC-333 SCHERMERHORN STREET-Master RAB Apartme created by Hector Gonzalez on 2024-03-28,2,3/28/2024,4239,20,8
+20158,66296,25,5,New York Metro,47,NY Residential,Worksite meeting at UG2 LLC-333 SCHERMERHORN STREET-Master RAB Apartme created by Hector Gonzalez on 2024-03-28,4,3/28/2024,4239,20,8
+20160,65853,25,5,New York Metro,47,NY Residential,Worksite meeting at GUARDIAN SERVICES INDUSTRIES INC.-230 Livingston S created by Hector Gonzalez on 2024-03-28,5,3/28/2024,9770,8,8
+20161,59768,25,5,New York Metro,47,NY Residential,"Worksite meeting at BCDA, LLC-280 ASHLAND PLACE-Master RAB Apartment B created by Hector Gonzalez on 2024-03-28",1,3/28/2024,2757,2,1
+20162,55113,25,5,New York Metro,47,NY Residential,Worksite meeting at 20 Lafayette LLC-300 Ashland Place-300 Ashland Pla created by Hector Gonzalez on 2024-03-28,2,3/28/2024,7692,12,2
+20164,53902,25,5,New York Metro,47,NY Residential,Worksite meeting at BAM GO DEVELOPERS LLC-250 ASHLAND PLACE-Master RAB created by Hector Gonzalez on 2024-03-28,5,3/28/2024,1073,17,6
+20165,54183,25,5,New York Metro,47,NY Residential,Worksite meeting at BAM GO DEVELOPERS LLC-250 ASHLAND PLACE-Master RAB created by Hector Gonzalez on 2024-03-28,1,3/28/2024,1073,1,NULL
+20166,39087,25,5,New York Metro,47,NY Residential,Worksite meeting at KINGSVIEW HOMES INC.-125 Ashland Place-Master RAB  created by Hector Gonzalez on 2024-03-28,2,3/28/2024,2915,6,4
+20167,55646,25,5,New York Metro,47,NY Residential,Worksite meeting at 33 BOND ST. LLC-33 BOND STREET-33 Bond Street - MO created by Hector Gonzalez on 2024-03-28,4,3/28/2024,3087,25,10
+20168,55646,25,5,New York Metro,47,NY Residential,Worksite meeting at 33 BOND ST. LLC-33 BOND STREET-33 Bond Street - MO created by Hector Gonzalez on 2024-03-28,4,3/28/2024,3087,25,10
+20169,70013,25,5,New York Metro,46,NY Commercial,Worksite meeting at HARVARD MAINTENANCE-300 Madison Avenue-Master NYC  created by Larry  Wilson on 2024-03-28,29,3/28/2024,1423,49,18
+20176,31802,25,5,New York Metro,47,NY Residential,Worksite meeting at 400 E 55TH STREET ASSOCIATES-400 East 55th Street- created by Adem Kajosaj on 2024-04-01,3,4/1/2024,6374,7,4
+20177,61545,25,5,New York Metro,47,NY Residential,Worksite meeting at The Hendrik Condominium-509 Pacific Street-509 Pac created by Hector Gonzalez on 2024-04-01,1,4/1/2024,8139,6,1
+20178,69080,25,5,New York Metro,47,NY Residential,"Worksite meeting at 505 State Operator, LLC-100 Flatbush Avenue-100 Fl created by Hector Gonzalez on 2024-04-01",1,4/1/2024,11181,1,NULL
+20179,61856,25,5,New York Metro,47,NY Residential,"Worksite meeting at GREP 250N10, LLC-1 FLATBUSH AVENUE-1 Flabush Avenu created by Hector Gonzalez on 2024-04-01",2,4/1/2024,11087,5,4
+20186,61856,25,5,New York Metro,47,NY Residential,"Worksite meeting at GREP 250N10, LLC-1 FLATBUSH AVENUE-1 Flabush Avenu created by Hector Gonzalez on 2024-04-01",3,4/1/2024,11087,5,4
+20192,67637,25,5,New York Metro,47,NY Residential,Worksite meeting at The One Clinton Condominium-280 Cadman Plaza West- created by Hector Gonzalez on 2024-04-02,6,4/2/2024,8056,11,4
+20193,67636,25,5,New York Metro,47,NY Residential,Worksite meeting at The One Clinton Condominium-280 Cadman Plaza West- created by Hector Gonzalez on 2024-04-02,1,4/2/2024,8056,1,NULL
+20199,66095,25,5,New York Metro,47,NY Residential,Worksite meeting at Boerum Condominium-265 STATE STREET-Master RAB Apa created by Hector Gonzalez on 2024-04-02,3,4/2/2024,2710,10,2
+20200,56637,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K136-New York City Sch created by Michael DeFreitas on 2024-04-02,2,4/2/2024,2339,4,2
+20201,37280,25,5,New York Metro,47,NY Residential,Worksite meeting at 85 LIVINGSTON STREET TENANTS CORP-85 Livingston St created by Hector Gonzalez on 2024-04-02,1,4/2/2024,9380,1,1
+20202,56875,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K747-New York City Sch created by Michael DeFreitas on 2024-04-02,1,4/2/2024,2339,1,1
+20220,38819,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1114 6th Avenue-Maste created by Mary Rosario on 2024-04-03",11,4/3/2024,886,58,21
+20222,56694,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K205-New York City Sch created by Michael DeFreitas on 2024-04-04,2,4/4/2024,2339,4,2
+20223,56733,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K247-New York City Sch created by Michael DeFreitas on 2024-04-04,1,4/4/2024,2339,2,1
+20224,56670,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K177-New York City Sch created by Michael DeFreitas on 2024-04-04,2,4/4/2024,2339,3,NULL
+20225,33978,25,5,New York Metro,47,NY Residential,Worksite meeting at 140 8TH AVENUE BROOKLYN CORP-140 8th Avenue-Master created by Hector Gonzalez on 2024-04-04,2,4/4/2024,7763,5,4
+20226,13640,25,5,New York Metro,47,NY Residential,Worksite meeting at PARK WEST TENANTS CORP-9 Prospect Park West-Master created by Hector Gonzalez on 2024-04-04,1,4/4/2024,5224,10,4
+20227,22491,25,5,New York Metro,47,NY Residential,Worksite meeting at 35 PARK WEST CORP-35 Prospect Park West-Master NYC created by Hector Gonzalez on 2024-04-04,3,4/4/2024,2474,11,8
+20228,29170,25,5,New York Metro,47,NY Residential,Worksite meeting at 44 PROSPECT PARK WEST OF BROOKLYN CORP-44 Prospect created by Hector Gonzalez on 2024-04-04,2,4/4/2024,4515,2,2
+20229,33176,25,5,New York Metro,47,NY Residential,Worksite meeting at 25 PLAZA TENANTS CORP-25 Plaza Street-Master RAB A created by Hector Gonzalez on 2024-04-04,2,4/4/2024,11447,4,4
+20233,66304,25,5,New York Metro,47,NY Residential,"Worksite meeting at 18 Sixth Avenue Owner, LLC-18 6TH AVENUE-18 6th Av created by Hector Gonzalez on 2024-04-04",2,4/4/2024,10040,20,14
+20234,66303,25,5,New York Metro,47,NY Residential,"Worksite meeting at 18 Sixth Avenue Owner, LLC-18 6TH AVENUE-Master RA created by Hector Gonzalez on 2024-04-04",1,4/4/2024,10040,3,2
+20235,54847,25,5,New York Metro,47,NY Residential,"Worksite meeting at USPA 461 DEAN, LLC-461 Dean Street-Master RAB Apar created by Hector Gonzalez on 2024-04-04",3,4/4/2024,9683,10,2
+20236,54848,25,5,New York Metro,47,NY Residential,"Worksite meeting at USPA 461 DEAN, LLC-461 Dean Street-Master RAB Resi created by Hector Gonzalez on 2024-04-04",1,4/4/2024,9683,1,NULL
+20239,62217,25,5,New York Metro,47,NY Residential,Worksite meeting at Empire Facility Solutions-125 Borinquen Place-Mast created by Hector Gonzalez on 2024-04-05,1,4/5/2024,5661,2,1
+20240,62217,25,5,New York Metro,47,NY Residential,Worksite meeting at Empire Facility Solutions-125 Borinquen Place-Mast created by Hector Gonzalez on 2024-04-05,1,4/5/2024,5661,2,1
+20241,62216,25,5,New York Metro,47,NY Residential,Worksite meeting at Quality Concierge Services (QCS)-125 Borinquen Pla created by Hector Gonzalez on 2024-04-05,1,4/5/2024,9303,3,NULL
+20257,31660,25,5,New York Metro,47,NY Residential,Worksite meeting at 245 HENRY STREET CORP-245 Henry Street-Master RAB  created by Hector Gonzalez on 2024-04-08,2,4/8/2024,3634,3,2
+20258,31950,25,5,New York Metro,47,NY Residential,Worksite meeting at 70 REMSEN STREET TENANTS CORP-70 Remsen Street-Mas created by Hector Gonzalez on 2024-04-08,3,4/8/2024,9725,5,1
+20259,59455,25,5,New York Metro,47,NY Residential,Worksite meeting at Love Lane Mews Condominium-9 College Place-Love La created by Hector Gonzalez on 2024-04-08,2,4/8/2024,10309,4,1
+20264,34766,25,5,New York Metro,47,NY Residential,Worksite meeting at 515 EAST 72ND STREET CONDOMINIUM-515 East 72nd Str created by Vince Roveccio on 2024-04-08,1,4/8/2024,2605,1,NULL
+20265,31432,25,5,New York Metro,47,NY Residential,Worksite meeting at 1085 PARK AVENUE LLC-1085 Park Avenue-Master RAB R created by Dem Kukic on 2024-04-08,1,4/8/2024,492,1,NULL
+20266,31433,25,5,New York Metro,47,NY Residential,Worksite meeting at 1085 PARK AVENUE LLC-1085 Park Avenue-Master RAB A created by Dem Kukic on 2024-04-08,1,4/8/2024,492,11,4
+20267,34706,25,5,New York Metro,47,NY Residential,Worksite meeting at WHITMAN OWNER CORP-75 Henry Street-Master RAB Resi created by Hector Gonzalez on 2024-04-08,1,4/8/2024,10768,1,NULL
+20268,34707,25,5,New York Metro,47,NY Residential,Worksite meeting at WHITMAN OWNER CORP-75 Henry Street-Master RAB Apar created by Hector Gonzalez on 2024-04-08,2,4/8/2024,10768,13,11
+20269,32389,25,5,New York Metro,47,NY Residential,Worksite meeting at ONE BROOKLYN BRIDGE CONDOMINIUM-360 Furman Street- created by Hector Gonzalez on 2024-04-08,1,4/8/2024,4349,1,1
+20270,32390,25,5,New York Metro,47,NY Residential,Worksite meeting at ONE BROOKLYN BRIDGE CONDOMINIUM-360 Furman Street- created by Hector Gonzalez on 2024-04-08,3,4/8/2024,4349,29,19
+20272,47340,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1 North End Avenue-Ma created by Hatixhe Azemi on 2024-04-08",13,4/8/2024,886,19,4
+20273,67635,25,5,New York Metro,46,NY Commercial,Worksite meeting at UG2 LLC-424 5th Avenue-Master RAB NYC Contractors  created by Larry  Wilson on 2024-04-09,17,4/9/2024,4239,40,25
+20275,51821,25,5,New York Metro,47,NY Residential,Worksite meeting at BROADWAY BROOKLYN ACQUISITION LLC-53 BROADWAY-Mast created by Hector Gonzalez on 2024-04-09,1,4/9/2024,784,3,3
+20278,56376,25,5,New York Metro,47,NY Residential,Worksite meeting at The Gretsch Condominium-60 Broadway-Master RAB Apa created by Hector Gonzalez on 2024-04-09,1,4/9/2024,117,8,5
+20279,55590,25,5,New York Metro,47,NY Residential,Worksite meeting at 325 KENT LLC-325 KENT AVENUE-325 Kent Avenue - MOA created by Hector Gonzalez on 2024-04-09,3,4/9/2024,2973,13,6
+20280,55862,25,5,New York Metro,47,NY Residential,Worksite meeting at Schaefer Landing North Condo-440 KENT AVENUE-440 K created by Hector Gonzalez on 2024-04-09,1,4/9/2024,305,7,4
+20282,56693,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-K204-New York City Sch created by Michael DeFreitas on 2024-04-09,2,4/9/2024,2339,4,1
+20283,65329,25,5,New York Metro,46,NY Commercial,"Worksite meeting at PBM, LLC-475 5th Avenue-Master RAB NYC Contractors created by Larry  Wilson on 2024-04-09",6,4/9/2024,4695,14,2
+20302,50123,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-90 Church Stre created by Hatixhe Azemi on 2024-04-10,17,4/10/2024,4226,19,9
+20303,36664,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1111 6TH AVENUE-Maste created by Maciel  Mancebo on 2024-04-10",24,4/10/2024,886,72,25
+20304,70446,25,5,New York Metro,46,NY Commercial,Worksite meeting at ROYAL REALTY CORP.-1111 6TH AVENUE-Master RAB Comm created by Maciel  Mancebo on 2024-04-10,4,4/10/2024,8435,24,3
+20305,15100,25,5,New York Metro,47,NY Residential,Worksite meeting at FIRST ATLANTIC TERMINAL-161 South Elliott Place-Ma created by Hector Gonzalez on 2024-04-10,5,4/10/2024,7938,5,4
+20306,13736,25,5,New York Metro,47,NY Residential,Worksite meeting at SECOND ATLANTIC TERMINAL HOUSING CO-475 Carlton Av created by Hector Gonzalez on 2024-04-10,5,4/10/2024,4538,8,7
+20308,60983,25,5,New York Metro,47,NY Residential,Worksite meeting at RXR 810 FULTON LLC-475 Clermont Avenue-Master RAB  created by Hector Gonzalez on 2024-04-10,5,4/10/2024,1217,9,1
+20310,52552,25,5,New York Metro,47,NY Residential,Worksite meeting at 550 VANDERBILT CONDOMINIUM-550 VANDERBILT AVENUE-M created by Hector Gonzalez on 2024-04-10,2,4/10/2024,5313,13,6
+20311,44913,25,5,New York Metro,47,NY Residential,Worksite meeting at ONE GRAND ARMY PLAZA CONDOMINIUM-1 Grand Army Plaz created by Hector Gonzalez on 2024-04-10,3,4/10/2024,9686,9,6
+20312,44994,25,5,New York Metro,47,NY Residential,Worksite meeting at ONE GRAND ARMY PLAZA CONDOMINIUM-1 Grand Army Plaz created by Hector Gonzalez on 2024-04-10,1,4/10/2024,9686,1,1
+20313,66303,25,5,New York Metro,47,NY Residential,"Worksite meeting at 18 Sixth Avenue Owner, LLC-18 6TH AVENUE-Master RA created by Hector Gonzalez on 2024-04-10",1,4/10/2024,10040,3,2
+20314,65653,25,5,New York Metro,47,NY Residential,Worksite meeting at Avanath Communities-535 Carlton Avenue-Master RAB  created by Hector Gonzalez on 2024-04-10,2,4/10/2024,1414,10,3
+20321,64392,25,5,New York Metro,46,NY Commercial,Worksite meeting at FIRST QUALITY MAINTENANCE (FQM)-110 East 42nd Stre created by Larry  Wilson on 2024-04-11,5,4/11/2024,6456,7,6
+20329,57998,25,5,New York Metro,46,NY Commercial,Worksite meeting at Quality Building Services Corp (QBS)-31 West 52nd  created by Maciel  Mancebo on 2024-04-12,5,4/12/2024,3475,20,5
+20330,57998,25,5,New York Metro,46,NY Commercial,Worksite meeting at Quality Building Services Corp (QBS)-31 West 52nd  created by Maciel  Mancebo on 2024-04-12,5,4/12/2024,3475,20,5
+20336,52481,25,5,New York Metro,46,NY Commercial,Worksite meeting at Citigroup-388 Greenwich Street-Master RAB Commerci created by Hatixhe Azemi on 2024-04-14,53,4/14/2024,723,91,25
+20340,28519,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-620 8th Avenue created by Michael DeFreitas on 2024-04-15,2,4/15/2024,4226,36,14
+20342,27850,25,5,New York Metro,46,NY Commercial,Worksite meeting at Pritchard Industries Inc-1221 6th Avenue-Master RA created by Maciel  Mancebo on 2024-04-15,40,4/15/2024,7369,87,36
+20343,35775,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 Vesey Street-Mast created by Hatixhe Azemi on 2024-04-15",63,4/15/2024,886,94,36
+20348,35552,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1251 6th Avenue-Maste created by Maciel  Mancebo on 2024-04-16",11,4/16/2024,886,68,17
+20353,59600,25,5,New York Metro,46,NY Commercial,Worksite meeting at A & A Maintenance Enterprise-224 West 57th Street- created by Mary Rosario on 2024-04-16,9,4/16/2024,3763,11,11
+20354,59653,25,5,New York Metro,46,NY Commercial,Worksite meeting at 125 Park Ave Owner LLC-125 Park Avenue-Master RAB  created by Larry  Wilson on 2024-04-17,14,4/17/2024,8283,24,6
+20355,35552,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1251 6th Avenue-Maste created by Maciel  Mancebo on 2024-04-17",51,4/17/2024,886,68,17
+20357,67529,25,5,New York Metro,65,NY Security,Worksite meeting at ARON SECURITY dba ARROW SECURITY-209-213 West 42nd created by Shameka  Murray on 2024-04-17,14,4/17/2024,8732,237,14
+20358,62164,25,5,New York Metro,65,NY Security,Worksite meeting at ALLIED UNIVERSAL SECURITY SERVICES-7 Times Square- created by Shameka  Murray on 2024-04-17,6,4/17/2024,5602,17,5
+20359,47190,25,5,New York Metro,65,NY Security,"Worksite meeting at QUALITY PROTECTION SERVICES, INC.-1411 Broadway-14 created by Shameka  Murray on 2024-04-17",3,4/17/2024,7541,19,4
+20360,54351,25,5,New York Metro,65,NY Security,Worksite meeting at HARVARD PROTECTION SERVICES-1045 6th Avenue-1045 A created by Shameka  Murray on 2024-04-17,5,4/17/2024,1981,16,4
+20362,62507,25,5,New York Metro,65,NY Security,Worksite meeting at ALLIED UNIVERSAL SECURITY SERVICES-1407 BROADWAY-1 created by Shameka  Murray on 2024-04-17,3,4/17/2024,5602,11,4
+20363,62512,25,5,New York Metro,65,NY Security,Worksite meeting at ALLIED UNIVERSAL SECURITY SERVICES-1407 BROADWAY-1 created by Shameka  Murray on 2024-04-17,1,4/17/2024,5602,5,3
+20364,28446,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-1407 BROADWAY- created by Michael DeFreitas on 2024-04-17,4,4/17/2024,4226,22,5
+20368,62387,25,5,New York Metro,46,NY Commercial,Worksite meeting at Quality Building Services Corp (QBS)-1211 6th Aven created by Maciel  Mancebo on 2024-04-18,28,4/18/2024,3475,52,11
+20370,50075,25,5,New York Metro,47,NY Residential,Worksite meeting at 270 RIVERSIDE DRIVE CONDOMINIUM-270 Riverside Driv created by Bryce Moreno on 2024-04-18,1,4/18/2024,10119,8,1
+20371,66040,25,5,New York Metro,47,NY Residential,Worksite meeting at 808 WEST END AVENUE LLC.-808 West End Avenue-Maste created by Bryce Moreno on 2024-04-18,1,4/18/2024,5574,6,4
+20372,66000,25,5,New York Metro,47,NY Residential,Worksite meeting at 820 WEST END AVENUE LLC-820 West End Avenue-Master created by Bryce Moreno on 2024-04-18,1,4/18/2024,9262,6,1
+20373,37296,25,5,New York Metro,47,NY Residential,Worksite meeting at ARIEL WEST CONDOMINIUM-245 West 99th Street-Master created by Bryce Moreno on 2024-04-18,3,4/18/2024,10791,12,7
+20374,39025,25,5,New York Metro,47,NY Residential,Worksite meeting at 825 WEST END CONDO-825 West End Avenue-Master RAB  created by Bryce Moreno on 2024-04-18,1,4/18/2024,9402,8,5
+20376,33287,25,5,New York Metro,47,NY Residential,Worksite meeting at 817 WEST END AVENUE HOMEOWNERS INC-817 West End Av created by Bryce Moreno on 2024-04-18,1,4/18/2024,1273,5,2
+20377,36664,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1111 6TH AVENUE-Maste created by Maciel  Mancebo on 2024-04-18",16,4/18/2024,886,72,25
+20378,39025,25,5,New York Metro,47,NY Residential,Worksite meeting at 825 WEST END CONDO-825 West End Avenue-Master RAB  created by Bryce Moreno on 2024-04-18,2,4/18/2024,9402,8,5
+20379,39024,25,5,New York Metro,47,NY Residential,Worksite meeting at 825 WEST END CONDO-825 West End Avenue-Master RAB  created by Bryce Moreno on 2024-04-18,1,4/18/2024,9402,1,NULL
+20381,32846,25,5,New York Metro,65,NY Security,Worksite meeting at 633 THIRD AVE. CONDOMINIUM-633 3RD AVENUE-Master R created by Shameka  Murray on 2024-04-18,4,4/18/2024,3181,13,7
+20382,59347,25,5,New York Metro,65,NY Security,Worksite meeting at 622 THIRD AVENUE CO LLC-622 3rd Avenue-Cohen Broth created by Shameka  Murray on 2024-04-18,4,4/18/2024,3999,11,6
+20383,32872,25,5,New York Metro,65,NY Security,Worksite meeting at 605 THIRD AVENUE FEE LLC-605 3rd Avenue-Master RAB created by Shameka  Murray on 2024-04-18,2,4/18/2024,11742,3,NULL
+20384,38902,25,5,New York Metro,65,NY Security,Worksite meeting at 605 THIRD AVENUE FEE LLC-605 3rd Avenue-Master RAB created by Shameka  Murray on 2024-04-18,2,4/18/2024,11742,8,2
+20388,35902,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-225 Liberty Street-Ma created by Hatixhe Azemi on 2024-04-18",51,4/18/2024,886,73,23
+20389,36414,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 LIBERTY STREET-Ma created by Hatixhe Azemi on 2024-04-19",25,4/19/2024,886,40,21
+20390,68707,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 Liberty Street -  created by Hatixhe Azemi on 2024-04-19",5,4/19/2024,886,7,2
+20394,35435,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-7 World Trade Center- created by Hatixhe Azemi on 2024-04-22",37,4/22/2024,886,58,15
+20409,35395,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-250 Vesey Street-Mast created by Hatixhe Azemi on 2024-04-23",44,4/23/2024,886,86,28
+20412,39188,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ISS FACILITY SERVICES, INC.-745 7th Avenue-Master  created by Maciel  Mancebo on 2024-04-23",23,4/23/2024,10150,70,35
+20417,28918,25,5,New York Metro,46,NY Commercial,Worksite meeting at FIRST QUALITY MAINTENANCE (FQM)-10 East 40th Stree created by Larry  Wilson on 2024-04-23,8,4/23/2024,6456,9,6
+20418,48182,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-Brookfield Place Shar created by Hatixhe Azemi on 2024-04-24",13,4/24/2024,886,23,8
+20421,54351,25,5,New York Metro,65,NY Security,Worksite meeting at HARVARD PROTECTION SERVICES-1045 6th Avenue-1045 A created by Shameka  Murray on 2024-04-24,5,4/24/2024,1981,16,4
+20422,24340,25,5,New York Metro,65,NY Security,Worksite meeting at ALLIED UNIVERSAL SECURITY SERVICES-1065 6TH AVENUE created by Shameka  Murray on 2024-04-24,2,4/24/2024,5602,NULL,NULL
+20424,68590,25,5,New York Metro,65,NY Security,Worksite meeting at HARVARD PROTECTION SERVICES-114 West 41st Street-1 created by Shameka  Murray on 2024-04-24,3,4/24/2024,1981,7,4
+20425,55655,25,5,New York Metro,65,NY Security,"Worksite meeting at QUALITY PROTECTION SERVICES, INC.-1095 6th Avenue- created by Shameka  Murray on 2024-04-24",6,4/24/2024,7541,32,6
+20428,65940,25,5,New York Metro,46,NY Commercial,Worksite meeting at Blackstone Consulting Inc-1585 Broadway-Master NYC created by Mary Rosario on 2024-04-24,19,4/24/2024,1672,23,11
+20431,67529,25,5,New York Metro,65,NY Security,Worksite meeting at ARON SECURITY dba ARROW SECURITY-209-213 West 42nd created by Shameka  Murray on 2024-04-24,15,4/24/2024,8732,237,14
+20432,62512,25,5,New York Metro,65,NY Security,Worksite meeting at ALLIED UNIVERSAL SECURITY SERVICES-1407 BROADWAY-1 created by Shameka  Murray on 2024-04-24,2,4/24/2024,5602,5,3
+20433,62507,25,5,New York Metro,65,NY Security,Worksite meeting at ALLIED UNIVERSAL SECURITY SERVICES-1407 BROADWAY-1 created by Shameka  Murray on 2024-04-24,3,4/24/2024,5602,11,4
+20434,47190,25,5,New York Metro,65,NY Security,"Worksite meeting at QUALITY PROTECTION SERVICES, INC.-1411 Broadway-14 created by Shameka  Murray on 2024-04-24",5,4/24/2024,7541,19,4
+20437,36500,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 WEST STREET-Maste created by Hatixhe Azemi on 2024-04-25",32,4/25/2024,886,111,28
+20438,54781,25,5,New York Metro,46,NY Commercial,Worksite meeting at Blackstone Consulting Inc-200 WEST STREET-Master N created by Hatixhe Azemi on 2024-04-25,6,4/25/2024,1672,NULL,NULL
+20463,40779,25,5,New York Metro,46,NY Commercial,Worksite meeting at ROYAL REALTY CORP.-1 World Trade Center-Master RAB created by Hatixhe Azemi on 2024-04-29,33,4/29/2024,5128,134,30
+20478,46931,25,5,New York Metro,46,NY Commercial,Worksite meeting at 100 CHURCH LLC-100 Church Street-Master RAB Commer created by Hatixhe Azemi on 2024-05-01,21,5/1/2024,1175,26,8
+20483,31457,25,5,New York Metro,47,NY Residential,Worksite meeting at 124 EAST 84TH ST. CORP-124 East 84th Street-Master created by Shea Barry on 2024-05-01,2,5/1/2024,6346,5,1
+20485,33947,25,5,New York Metro,47,NY Residential,Worksite meeting at 125 EAST 84TH ST CORP-125 East 84th Street-Master  created by Shea Barry on 2024-05-01,3,5/1/2024,4319,6,3
+20487,33193,25,5,New York Metro,47,NY Residential,Worksite meeting at 315 HOMES CORP NT-315 Riverside Drive-Master RAB A created by Bryce Moreno on 2024-05-01,1,5/1/2024,4835,9,3
+20488,33629,25,5,New York Metro,47,NY Residential,Worksite meeting at 320 RIVERSIDE APTS CORP-320 Riverside Drive-Master created by Bryce Moreno on 2024-05-01,1,5/1/2024,6589,7,3
+20489,31981,25,5,New York Metro,47,NY Residential,Worksite meeting at 85TH ESTATES CO-185 East 85th Street-Master RAB Ap created by Shea Barry on 2024-05-01,5,5/1/2024,1580,18,5
+20490,31804,25,5,New York Metro,47,NY Residential,Worksite meeting at 400 EAST 84TH STREET ASSOCIATES LP-400 East 84th S created by Shea Barry on 2024-05-01,3,5/1/2024,11030,14,6
+20491,27422,25,5,New York Metro,47,NY Residential,Worksite meeting at ZELDA REALTY CORP.-510 East 85th Street-Master RAB created by Shea Barry on 2024-05-01,3,5/1/2024,4486,5,2
+20492,33025,25,5,New York Metro,47,NY Residential,Worksite meeting at 51585 OWNERS CORP-515 East 85th Street-Master RAB  created by Shea Barry on 2024-05-01,2,5/1/2024,8059,5,NULL
+20493,31712,25,5,New York Metro,47,NY Residential,Worksite meeting at 300 EAST 85 HOUSING CORP-300 East 85th Street-Mast created by Shea Barry on 2024-05-01,3,5/1/2024,1507,10,5
+20495,33039,25,5,New York Metro,47,NY Residential,Worksite meeting at 875 WEST END APT. CORP-875 West End Avenue-Master  created by Bryce Moreno on 2024-05-01,2,5/1/2024,870,7,3
+20511,31896,25,5,New York Metro,47,NY Residential,Worksite meeting at 545 WEST CORPORATION-545 West 111th Street-Master  created by Bryce Moreno on 2024-05-02,1,5/2/2024,7979,8,5
+20512,33657,25,5,New York Metro,47,NY Residential,Worksite meeting at 420 OWNERS CORP-420 Riverside Drive-Master RAB Apa created by Bryce Moreno on 2024-05-02,1,5/2/2024,2490,7,6
+20513,67369,25,5,New York Metro,47,NY Residential,Worksite meeting at The Board Of Managers Of The Tower Section Of Fron created by Hector Gonzalez on 2024-05-02,1,5/2/2024,6687,1,NULL
+20514,67368,25,5,New York Metro,47,NY Residential,Worksite meeting at The Board Of Managers Of The Tower Section Of Fron created by Hector Gonzalez on 2024-05-02,9,5/2/2024,6687,28,8
+20515,65904,25,5,New York Metro,47,NY Residential,Worksite meeting at GUARDIAN SERVICES INDUSTRIES INC.-85 Jay Street-Ma created by Hector Gonzalez on 2024-05-02,3,5/2/2024,9770,NULL,NULL
+20516,34670,25,5,New York Metro,47,NY Residential,Worksite meeting at THE SWEENEY BUILDING-30 Main Street-Master RAB Apa created by Hector Gonzalez on 2024-05-02,2,5/2/2024,9087,8,5
+20517,54296,25,5,New York Metro,47,NY Residential,Worksite meeting at JAY CONDO ASSOCIATION-100 Jay Street-Master RAB Re created by Hector Gonzalez on 2024-05-02,1,5/2/2024,4077,1,NULL
+20518,54296,25,5,New York Metro,47,NY Residential,Worksite meeting at JAY CONDO ASSOCIATION-100 Jay Street-Master RAB Re created by Hector Gonzalez on 2024-05-02,1,5/2/2024,4077,1,NULL
+20519,34546,25,5,New York Metro,47,NY Residential,Worksite meeting at JAY CONDO ASSOCIATION-100 Jay Street-Master RAB Ap created by Hector Gonzalez on 2024-05-02,3,5/2/2024,4077,14,9
+20520,30733,25,5,New York Metro,47,NY Residential,Worksite meeting at CLOCKTOWER CONDO-1 Main Street-Master RAB Apartmen created by Hector Gonzalez on 2024-05-02,1,5/2/2024,11461,7,5
+20521,56170,25,5,New York Metro,47,NY Residential,Worksite meeting at 51 Jay Street Condo.-51 Jay Street-Master RAB Apar created by Hector Gonzalez on 2024-05-02,3,5/2/2024,11583,7,4
+20522,60847,25,5,New York Metro,46,NY Commercial,Worksite meeting at Pritchard Industries Inc-150 East 42nd Street - Ro created by Larry  Wilson on 2024-05-03,18,5/3/2024,7369,56,11
+20523,59686,25,5,New York Metro,46,NY Commercial,Worksite meeting at SLG 220 NEWS OWNER LLC-220 East 42nd Street-Master created by Larry  Wilson on 2024-05-03,14,5/3/2024,2998,16,12
+20533,41736,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-101 Barclay Street-Ma created by Hatixhe Azemi on 2024-05-06",19,5/6/2024,886,51,21
+20557,21408,25,5,New York Metro,46,NY Commercial,Worksite meeting at GUARDIAN SERVICES INDUSTRIES INC.-75 Park Place-Ma created by Hatixhe Azemi on 2024-05-07,4,5/7/2024,9770,10,7
+20559,13887,25,5,New York Metro,47,NY Residential,Worksite meeting at BARNARD COLLEGE-217 Manhattan Avenue-Master RAB Re created by Bryce Moreno on 2024-05-07,1,5/7/2024,8786,1,NULL
+20560,13888,25,5,New York Metro,47,NY Residential,Worksite meeting at BARNARD COLLEGE-217 Manhattan Avenue-Master RAB Ap created by Bryce Moreno on 2024-05-07,1,5/7/2024,8786,6,NULL
+20561,38428,25,5,New York Metro,47,NY Residential,Worksite meeting at 444 CENTRAL PARK OWNERS INC.-444 Central Park West created by Bryce Moreno on 2024-05-07,1,5/7/2024,3892,9,1
+20562,38354,25,5,New York Metro,47,NY Residential,Worksite meeting at 255 WEST 108TH STREET CORP-255 West 108th Street-M created by Bryce Moreno on 2024-05-07,1,5/7/2024,1187,1,NULL
+20563,38321,25,5,New York Metro,47,NY Residential,Worksite meeting at 255 WEST 108TH STREET CORP-255 West 108th Street-M created by Bryce Moreno on 2024-05-07,1,5/7/2024,1187,14,4
+20566,17070,25,5,New York Metro,46,NY Commercial,Worksite meeting at Vornado Realty Trust-7 West 34th Street-Master RAB created by Larry  Wilson on 2024-05-07,18,5/7/2024,8640,32,11
+20568,36414,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 LIBERTY STREET-Ma created by Hatixhe Azemi on 2024-05-08",18,5/8/2024,886,40,21
+20572,13888,25,5,New York Metro,47,NY Residential,Worksite meeting at BARNARD COLLEGE-217 Manhattan Avenue-Master RAB Ap created by Bryce Moreno on 2024-05-08,1,5/8/2024,8786,6,NULL
+20573,13887,25,5,New York Metro,47,NY Residential,Worksite meeting at BARNARD COLLEGE-217 Manhattan Avenue-Master RAB Re created by Bryce Moreno on 2024-05-08,1,5/8/2024,8786,1,NULL
+20574,38428,25,5,New York Metro,47,NY Residential,Worksite meeting at 444 CENTRAL PARK OWNERS INC.-444 Central Park West created by Bryce Moreno on 2024-05-08,1,5/8/2024,3892,9,1
+20576,33184,25,5,New York Metro,47,NY Residential,Worksite meeting at 272 WEST 107TH STREET CONDO-272 West 107th Street- created by Bryce Moreno on 2024-05-08,1,5/8/2024,4279,10,1
+20584,21408,25,5,New York Metro,46,NY Commercial,Worksite meeting at GUARDIAN SERVICES INDUSTRIES INC.-75 Park Place-Ma created by Hatixhe Azemi on 2024-05-09,0,5/9/2024,9770,10,7
+20585,47340,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1 North End Avenue-Ma created by Hatixhe Azemi on 2024-05-09",12,5/9/2024,886,19,4
+20586,39025,25,5,New York Metro,47,NY Residential,Worksite meeting at 825 WEST END CONDO-825 West End Avenue-Master RAB  created by Bryce Moreno on 2024-05-09,2,5/9/2024,9402,8,5
+20590,33039,25,5,New York Metro,47,NY Residential,Worksite meeting at 875 WEST END APT. CORP-875 West End Avenue-Master  created by Bryce Moreno on 2024-05-09,1,5/9/2024,870,7,3
+20591,63998,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-50 WEST 47TH STREET-M created by Rosayri Perez on 2024-05-09",8,5/9/2024,886,15,8
+20602,50123,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-90 Church Stre created by Hatixhe Azemi on 2024-05-13,13,5/13/2024,4226,19,9
+20607,33657,25,5,New York Metro,47,NY Residential,Worksite meeting at 420 OWNERS CORP-420 Riverside Drive-Master RAB Apa created by Bryce Moreno on 2024-05-13,1,5/13/2024,2490,7,6
+20608,33656,25,5,New York Metro,47,NY Residential,Worksite meeting at 420 OWNERS CORP-420 Riverside Drive-Master RAB Res created by Bryce Moreno on 2024-05-13,1,5/13/2024,2490,1,1
+20613,35902,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-225 Liberty Street-Ma created by Hatixhe Azemi on 2024-05-14",27,5/14/2024,886,73,23
+20620,13886,25,5,New York Metro,47,NY Residential,Worksite meeting at BARNARD COLLEGE-600 West 116th Street-Master RAB A created by Bryce Moreno on 2024-05-14,2,5/14/2024,8786,2,1
+20622,39837,25,5,New York Metro,47,NY Residential,Worksite meeting at COLUMBIA UNIVERSITY-606 West 116th Street-Columbia created by Bryce Moreno on 2024-05-14,1,5/14/2024,2127,4,1
+20623,46298,25,5,New York Metro,46,NY Commercial,Worksite meeting at FIRST QUALITY MAINTENANCE (FQM)-76 Trinity Place-M created by Pasquale Follano on 2024-05-14,7,5/14/2024,6456,11,NULL
+20624,13654,25,5,New York Metro,47,NY Residential,Worksite meeting at MORNINGSIDE HEIGHTS HOUSING CORP-80 LaSalle Street created by Bryce Moreno on 2024-05-14,6,5/14/2024,2863,22,17
+20625,66876,25,5,New York Metro,47,NY Residential,Worksite meeting at GLADYS HAMPTON HOUSES ASSOCIATES LP-2411 8th Avenu created by Bryce Moreno on 2024-05-14,2,5/14/2024,7022,8,7
+20632,31896,25,5,New York Metro,47,NY Residential,Worksite meeting at 545 WEST CORPORATION-545 West 111th Street-Master  created by Bryce Moreno on 2024-05-15,2,5/15/2024,7979,8,5
+20633,45149,25,5,New York Metro,47,NY Residential,Worksite meeting at 545 WEST CORPORATION-545 West 111th Street-Master  created by Bryce Moreno on 2024-05-15,1,5/15/2024,7979,1,NULL
+20634,37296,25,5,New York Metro,47,NY Residential,Worksite meeting at ARIEL WEST CONDOMINIUM-245 West 99th Street-Master created by Bryce Moreno on 2024-05-15,2,5/15/2024,10791,12,7
+20639,39025,25,5,New York Metro,47,NY Residential,Worksite meeting at 825 WEST END CONDO-825 West End Avenue-Master RAB  created by Bryce Moreno on 2024-05-16,1,5/16/2024,9402,8,5
+20640,33287,25,5,New York Metro,47,NY Residential,Worksite meeting at 817 WEST END AVENUE HOMEOWNERS INC-817 West End Av created by Bryce Moreno on 2024-05-16,2,5/16/2024,1273,5,2
+20641,29662,25,5,New York Metro,47,NY Residential,Worksite meeting at THE 845 WEST END AVENUE CONDOMINIUM-841-9 West End created by Bryce Moreno on 2024-05-16,2,5/16/2024,10104,9,6
+20642,33039,25,5,New York Metro,47,NY Residential,Worksite meeting at 875 WEST END APT. CORP-875 West End Avenue-Master  created by Bryce Moreno on 2024-05-16,2,5/16/2024,870,7,3
+20645,20484,25,5,New York Metro,46,NY Commercial,Worksite meeting at Ecc Industries-461 8th Avenue-Master NYC Independe created by Michael DeFreitas on 2024-05-16,6,5/16/2024,4692,23,8
+20647,69299,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-120-34 Park Av created by Larry  Wilson on 2024-05-17,18,5/17/2024,4226,38,7
+20654,69978,25,5,New York Metro,46,NY Commercial,Worksite meeting at HARVARD MAINTENANCE-245 PARK AVENUE-Master NYC Ind created by Arlind Lela on 2024-05-17,19,5/17/2024,1423,36,16
+20662,36500,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 WEST STREET-Maste created by Hatixhe Azemi on 2024-05-19",14,5/19/2024,886,111,28
+20663,35775,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 Vesey Street-Mast created by Hatixhe Azemi on 2024-05-19",21,5/19/2024,886,94,36
+20664,35435,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-7 World Trade Center- created by Hatixhe Azemi on 2024-05-19",24,5/19/2024,886,58,15
+20665,27301,25,5,New York Metro,47,NY Residential,Worksite meeting at COLUMBIA UNIVERSITY-60-100 Haven Avenue-Master RAB created by Bryce Moreno on 2024-05-20,3,5/20/2024,2127,31,9
+20668,38675,25,5,New York Metro,47,NY Residential,Worksite meeting at ROYAL CHARTER PROPERTIES INC-235-245 Fort Washingt created by Bryce Moreno on 2024-05-20,1,5/20/2024,2748,3,2
+20671,38621,25,5,New York Metro,47,NY Residential,Worksite meeting at ROYAL CHARTER PROPERTIES INC-640 West 170th Street created by Bryce Moreno on 2024-05-20,1,5/20/2024,2748,1,1
+20676,40779,25,5,New York Metro,46,NY Commercial,Worksite meeting at ROYAL REALTY CORP.-1 World Trade Center-Master RAB created by Hatixhe Azemi on 2024-05-21,25,5/21/2024,5128,134,30
+20700,38469,25,5,New York Metro,47,NY Residential,Worksite meeting at ROYAL CHARTER PROPERTIES INC-720 West 170th Street created by Bryce Moreno on 2024-05-21,1,5/21/2024,2748,2,2
+20701,44884,25,5,New York Metro,47,NY Residential,Worksite meeting at IG Greenpoint Corp-605 West 170th Street-Master NY created by Bryce Moreno on 2024-05-21,3,5/21/2024,3671,3,1
+20707,33708,25,5,New York Metro,47,NY Residential,Worksite meeting at C.V. PARKING LLC-120-200 Cabrini Blvd (garage)-Mas created by Bryce Moreno on 2024-05-21,2,5/21/2024,11002,13,6
+20708,39032,25,5,New York Metro,47,NY Residential,Worksite meeting at CASTLE VILLAGE OWNERS CORP-120-200 Cabrini Bouleva created by Bryce Moreno on 2024-05-21,4,5/21/2024,8049,34,5
+20715,52481,25,5,New York Metro,46,NY Commercial,Worksite meeting at Citigroup-388 Greenwich Street-Master RAB Commerci created by Hatixhe Azemi on 2024-05-22,39,5/22/2024,723,91,25
+20716,52482,25,5,New York Metro,46,NY Commercial,Worksite meeting at Citigroup-390 Greenwich Street-Master RAB Commerci created by Hatixhe Azemi on 2024-05-22,5,5/22/2024,723,17,7
+20720,59193,25,5,New York Metro,46,NY Commercial,Worksite meeting at One Penn Plaza LLC-1 Pennsylvania Plaza-Master RAB created by Rogelio Cox Walker on 2024-05-22,13,5/22/2024,8644,111,41
+20724,35395,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-250 Vesey Street-Mast created by Hatixhe Azemi on 2024-05-23",35,5/23/2024,886,86,28
+20726,32752,25,5,New York Metro,46,NY Commercial,"Worksite meeting at 277 PARK AVENUE, LLC-277 Park Avenue-Master RAB Co created by Arlind Lela on 2024-05-23",41,5/23/2024,193,88,16
+20736,41736,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-101 Barclay Street-Ma created by Hatixhe Azemi on 2024-05-27",16,5/27/2024,886,51,21
+20737,46931,25,5,New York Metro,46,NY Commercial,Worksite meeting at 100 CHURCH LLC-100 Church Street-Master RAB Commer created by Hatixhe Azemi on 2024-05-27,15,5/27/2024,1175,26,8
+20772,47340,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1 North End Avenue-Ma created by Hatixhe Azemi on 2024-05-31",14,5/31/2024,886,19,4
+20773,36414,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 LIBERTY STREET-Ma created by Hatixhe Azemi on 2024-05-31",12,5/31/2024,886,40,21
+20800,33885,25,5,New York Metro,47,NY Residential,Worksite meeting at 1020 PARK AVENUE CORP-1020 Park Avenue-Master RAB  created by Shea Barry on 2024-06-03,4,6/3/2024,4821,13,2
+20801,31420,25,5,New York Metro,47,NY Residential,Worksite meeting at 1025 FIFTH AVENUE INC.-1025 5th Avenue-Master RAB  created by Shea Barry on 2024-06-03,6,6/3/2024,9182,22,5
+20802,52724,25,5,New York Metro,47,NY Residential,Worksite meeting at PARK 86TH APARTMENT CORP-1040 Park Avenue-Master R created by Shea Barry on 2024-06-03,4,6/3/2024,2949,14,5
+20803,50123,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-90 Church Stre created by Hatixhe Azemi on 2024-06-03,13,6/3/2024,4226,19,9
+20806,15273,25,5,New York Metro,46,NY Commercial,Worksite meeting at BROADWAY 280 PARK FEE LLC-280 Park Avenue East-Mas created by Arlind Lela on 2024-06-04,26,6/4/2024,2969,48,10
+20807,69263,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-345 Park Avenu created by Arlind Lela on 2024-06-04,36,6/4/2024,4226,69,20
+20842,36500,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 WEST STREET-Maste created by Hatixhe Azemi on 2024-06-07",16,6/7/2024,886,111,28
+20850,35775,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 Vesey Street-Mast created by Hatixhe Azemi on 2024-06-09",29,6/9/2024,886,94,36
+20861,41699,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-225 Liberty Street-Di created by Hatixhe Azemi on 2024-06-11",0,6/11/2024,886,22,9
+20862,35902,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-225 Liberty Street-Ma created by Hatixhe Azemi on 2024-06-11",22,6/11/2024,886,73,23
+20863,13731,25,5,New York Metro,47,NY Residential,Worksite meeting at TRI-FAITH HOUSING CO-1646 1st Avenue-Master RAB Ap created by Shea Barry on 2024-06-11,2,6/11/2024,11676,4,NULL
+20876,36500,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 WEST STREET-Maste created by Hatixhe Azemi on 2024-06-13",15,6/13/2024,886,111,28
+20893,64787,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1 Broadway-Master RAB created by Sam Resheff on 2024-06-13",3,6/13/2024,886,11,6
+20902,55655,25,5,New York Metro,65,NY Security,"Worksite meeting at QUALITY PROTECTION SERVICES, INC.-1095 6th Avenue- created by Shameka  Murray on 2024-06-14",6,6/14/2024,7541,32,6
+20903,24340,25,5,New York Metro,65,NY Security,Worksite meeting at ALLIED UNIVERSAL SECURITY SERVICES-1065 6TH AVENUE created by Shameka  Murray on 2024-06-14,2,6/14/2024,5602,NULL,NULL
+20915,35435,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-7 World Trade Center- created by Hatixhe Azemi on 2024-06-17",22,6/17/2024,886,58,15
+20928,35395,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-250 Vesey Street-Mast created by Hatixhe Azemi on 2024-06-18",0,6/18/2024,886,86,28
+20929,35395,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-250 Vesey Street-Mast created by Hatixhe Azemi on 2024-06-18",15,6/18/2024,886,86,28
+20930,27849,25,5,New York Metro,46,NY Commercial,Worksite meeting at Pritchard Industries Inc-767 5th Avenue-Master RAB created by Arlind Lela on 2024-06-18,27,6/18/2024,7369,68,26
+20931,27881,25,5,New York Metro,46,NY Commercial,Worksite meeting at Pritchard Industries Inc-399 PARK AVENUE-Master RA created by Arlind Lela on 2024-06-18,19,6/18/2024,7369,65,27
+20957,32860,25,5,New York Metro,46,NY Commercial,"Worksite meeting at 605 CLEANING SERVICE CO., L.P.-605 3rd Avenue-Mast created by Larry  Wilson on 2024-06-18",16,6/18/2024,5221,35,5
+20963,40779,25,5,New York Metro,46,NY Commercial,Worksite meeting at ROYAL REALTY CORP.-1 World Trade Center-Master RAB created by Hatixhe Azemi on 2024-06-19,39,6/19/2024,5128,134,30
+20965,63945,25,5,New York Metro,65,NY Security,Worksite meeting at ALLIED UNIVERSAL SECURITY SERVICES-10 HUDSON YARDS created by Shameka  Murray on 2024-06-20,4,6/20/2024,5602,61,12
+20966,65045,25,5,New York Metro,65,NY Security,"Worksite meeting at SECURITAS SECURITY SERVICES USA, INC.-30 Hudson Ya created by Shameka  Murray on 2024-06-20",5,6/20/2024,2183,31,8
+20967,64883,25,5,New York Metro,65,NY Security,Worksite meeting at ALLIED UNIVERSAL SECURITY SERVICES-30 Hudson Yards created by Shameka  Murray on 2024-06-20,5,6/20/2024,5602,20,8
+20992,69703,25,5,New York Metro,65,NY Security,Worksite meeting at ARON SECURITY dba ARROW SECURITY-11 Times Square-N created by Shameka  Murray on 2024-06-25,8,6/25/2024,8732,NULL,NULL
+20993,58790,25,5,New York Metro,65,NY Security,Worksite meeting at ALLIED UNIVERSAL SECURITY SERVICES-11 Times Square created by Shameka  Murray on 2024-06-25,1,6/25/2024,5602,NULL,NULL
+20994,28449,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-620 Atlantic A created by Kimberly Eyssen on 2024-06-25,8,6/25/2024,4226,198,16
+20995,28449,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-620 Atlantic A created by Kimberly Eyssen on 2024-06-25,9,6/25/2024,4226,198,16
+20996,28449,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-620 Atlantic A created by Kimberly Eyssen on 2024-06-25,11,6/25/2024,4226,198,16
+20997,57459,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q455-New York City Sch created by Mark Espinoza on 2024-06-26,5,6/26/2024,2339,7,4
+20998,57479,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q600-New York City Sch created by Mark Espinoza on 2024-06-26,2,6/26/2024,2339,4,3
+20999,57369,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q199-New York City Sch created by Mark Espinoza on 2024-06-26,1,6/26/2024,2339,2,NULL
+21013,56452,25,5,New York Metro,65,NY Security,"Worksite meeting at SECURITAS SECURITY SERVICES USA, INC.-51 Madison A created by Shameka  Murray on 2024-06-26",5,6/26/2024,2183,39,10
+21015,57474,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q520-New York City Sch created by Mark Espinoza on 2024-06-26,2,6/26/2024,2339,3,3
+21016,57479,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q600-New York City Sch created by Mark Espinoza on 2024-06-26,2,6/26/2024,2339,4,3
+21021,57527,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q891-New York City Sch created by Mark Espinoza on 2024-06-28,2,6/28/2024,2339,3,3
+21033,57248,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q056-New York City Sch created by Mark Espinoza on 2024-07-01,1,7/1/2024,2339,2,NULL
+21034,57466,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q475-New York City Sch created by Mark Espinoza on 2024-07-01,3,7/1/2024,2339,5,2
+21037,38259,25,5,New York Metro,46,NY Commercial,Worksite meeting at QUADRI PLANETARY ASSOCIATES-318 West 39th Street-M created by Michael DeFreitas on 2024-07-02,2,7/2/2024,4424,3,3
+21039,62052,25,5,New York Metro,46,NY Commercial,"Worksite meeting at PBM, LLC-420 5th Avenue-Master RAB NYC Contractors created by Larry  Wilson on 2024-07-03",11,7/3/2024,4695,22,6
+21043,57209,25,5,New York Metro,48,NY Schools,Worksite meeting at NYC School Support Services-Q011-New York City Sch created by Mark Espinoza on 2024-07-03,4,7/3/2024,2339,6,2
+21090,33839,25,5,New York Metro,46,NY Commercial,Worksite meeting at TOWER 570 COMPANY LP-570 Lexington Avenue-Master R created by Arlind Lela on 2024-07-15,13,7/15/2024,6326,25,6
+21102,41736,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-240 Greenwich Street- created by Hatixhe Azemi on 2024-07-17",10,7/17/2024,886,51,21
+21108,57951,25,5,New York Metro,46,NY Commercial,Worksite meeting at Quality Building Services Corp (QBS)-745 5th Avenu created by Arlind Lela on 2024-07-17,8,7/17/2024,3475,17,8
+21109,28396,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-11 West 53rd S created by Maciel  Mancebo on 2024-07-17,7,7/17/2024,4226,28,9
+21112,33902,25,5,New York Metro,47,NY Residential,Worksite meeting at 108 APARTMENTS CORP-108 East 86th Street-Master RA created by Shea Barry on 2024-07-18,1,7/18/2024,10147,6,1
+21113,33901,25,5,New York Metro,47,NY Residential,Worksite meeting at 108 APARTMENTS CORP-108 East 86th Street-Master RA created by Shea Barry on 2024-07-18,1,7/18/2024,10147,1,1
+21114,31423,25,5,New York Metro,47,NY Residential,Worksite meeting at 1036 PARK CORP-1036 Park Avenue-Master RAB Residen created by Shea Barry on 2024-07-18,1,7/18/2024,6187,1,NULL
+21115,31424,25,5,New York Metro,47,NY Residential,Worksite meeting at 1036 PARK CORP-1036 Park Avenue-Master RAB Apartme created by Shea Barry on 2024-07-18,3,7/18/2024,6187,9,1
+21116,34452,25,5,New York Metro,47,NY Residential,Worksite meeting at CHANNEL CLUB CONDO-455 East 86th Street-Master RAB created by Shea Barry on 2024-07-18,0,7/18/2024,3199,1,NULL
+21117,36414,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 LIBERTY STREET-Ma created by Hatixhe Azemi on 2024-07-18",14,7/18/2024,886,40,21
+21118,68707,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 Liberty Street -  created by Hatixhe Azemi on 2024-07-18",2,7/18/2024,886,7,2
+21119,70815,25,5,New York Metro,46,NY Commercial,Worksite meeting at HARVARD MAINTENANCE-717 5th Avenue-Master RAB NYC  created by Arlind Lela on 2024-07-19,5,7/19/2024,10595,10,5
+21122,47340,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1 North End Avenue-Ma created by Hatixhe Azemi on 2024-07-22",13,7/22/2024,886,19,4
+21149,35395,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-250 Vesey Street-Mast created by Hatixhe Azemi on 2024-07-23",28,7/23/2024,886,86,28
+21153,35902,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-225 Liberty Street-Ma created by Hatixhe Azemi on 2024-07-24",29,7/24/2024,886,73,23
+21163,36500,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 WEST STREET-Maste created by Hatixhe Azemi on 2024-07-26",19,7/26/2024,886,111,28
+21165,52481,25,5,New York Metro,46,NY Commercial,Worksite meeting at Citigroup-388 Greenwich Street-Master RAB Commerci created by Hatixhe Azemi on 2024-07-29,29,7/29/2024,723,91,25
+21178,35775,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 Vesey Street-Mast created by Hatixhe Azemi on 2024-08-01",20,8/1/2024,886,94,36
+21179,35435,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-7 World Trade Center- created by Hatixhe Azemi on 2024-08-01",15,8/1/2024,886,58,15
+21180,40779,25,5,New York Metro,46,NY Commercial,Worksite meeting at ROYAL REALTY CORP.-1 World Trade Center-Master RAB created by Hatixhe Azemi on 2024-08-01,3,8/1/2024,5128,134,30
+21181,46704,25,5,New York Metro,46,NY Commercial,"Worksite meeting at PBM, LLC-250 Park Avenue-Master RAB NYC Contractor created by Arlind Lela on 2024-08-01",10,8/1/2024,4695,17,5
+21186,46931,25,5,New York Metro,46,NY Commercial,Worksite meeting at 100 CHURCH LLC-100 Church Street-Master RAB Commer created by Hatixhe Azemi on 2024-08-02,12,8/2/2024,1175,26,8
+21193,50123,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-90 Church Stre created by Hatixhe Azemi on 2024-08-05,9,8/5/2024,4226,19,9
+21208,36414,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 LIBERTY STREET-Ma created by Hatixhe Azemi on 2024-08-08",11,8/8/2024,886,40,21
+21209,68707,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 Liberty Street -  created by Hatixhe Azemi on 2024-08-08",2,8/8/2024,886,7,2
+21212,41736,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-240 Greenwich Street- created by Hatixhe Azemi on 2024-08-09",4,8/9/2024,886,51,21
+21219,35395,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-250 Vesey Street-Mast created by Hatixhe Azemi on 2024-08-13",18,8/13/2024,886,86,28
+21277,35902,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-225 Liberty Street-Ma created by Hatixhe Azemi on 2024-08-21",27,8/21/2024,886,73,23
+21305,47340,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1 North End Avenue-Ma created by Hatixhe Azemi on 2024-08-23",12,8/23/2024,886,19,4
+21335,48192,25,5,New York Metro,46,NY Commercial,Worksite meeting at Able Building Maintenance-32 West 60th Street-Mast created by Kimberly Eyssen on 2024-08-28,3,8/28/2024,586,19,5
+21340,54085,25,5,New York Metro,46,NY Commercial,Worksite meeting at THE NEW 42ND STREET-229 West 42nd Street-The New 4 created by Kimberly Eyssen on 2024-08-28,10,8/28/2024,276,11,4
+21357,54351,25,5,New York Metro,65,NY Security,Worksite meeting at HARVARD PROTECTION SERVICES-1045 6th Avenue-1045 A created by Shameka  Murray on 2024-09-05,8,9/5/2024,1981,16,4
+21358,68590,25,5,New York Metro,65,NY Security,Worksite meeting at HARVARD PROTECTION SERVICES-114 West 41st Street-1 created by Shameka  Murray on 2024-09-05,1,9/5/2024,1981,7,4
+21377,35395,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-250 Vesey Street-Mast created by Hatixhe Azemi on 2024-09-10",16,9/10/2024,886,86,28
+21382,40336,25,5,New York Metro,46,NY Commercial,"Worksite meeting at Empire State Realty OP, L.P. (ESRO)-350 5th Avenue created by Larry  Wilson on 2024-09-10",11,9/10/2024,3288,120,36
+21391,35775,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 Vesey Street-Mast created by Hatixhe Azemi on 2024-09-12",19,9/12/2024,886,94,36
+21392,36414,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 LIBERTY STREET-Ma created by Hatixhe Azemi on 2024-09-12",14,9/12/2024,886,40,21
+21393,68707,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 Liberty Street -  created by Hatixhe Azemi on 2024-09-12",2,9/12/2024,886,7,2
+21402,70268,25,5,New York Metro,46,NY Commercial,"Worksite meeting at 1120 Ave of the Americas, LLC-1120 6th Avenue-Mast created by Jennifer Fernandez on 2024-09-13",11,9/13/2024,8487,22,11
+21404,41736,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-240 Greenwich Street- created by Hatixhe Azemi on 2024-09-17",14,9/17/2024,886,51,21
+21411,40336,25,5,New York Metro,46,NY Commercial,"Worksite meeting at Empire State Realty OP, L.P. (ESRO)-350 5th Avenue created by Larry  Wilson on 2024-09-17",21,9/17/2024,3288,120,36
+21413,36500,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 WEST STREET-Maste created by Hatixhe Azemi on 2024-09-18",23,9/18/2024,886,111,28
+21426,59277,25,5,New York Metro,46,NY Commercial,"Worksite meeting at PBM, LLC-477 Madison Avenue-Master RAB NYC Contrac created by Arlind Lela on 2024-09-19",4,9/19/2024,4695,9,1
+21428,32752,25,5,New York Metro,46,NY Commercial,"Worksite meeting at 277 PARK AVENUE, LLC-277 Park Avenue-Master RAB Co created by Arlind Lela on 2024-09-19",55,9/19/2024,193,88,16
+21432,49916,25,5,New York Metro,46,NY Commercial,Worksite meeting at WDFG North America LLC-350 5th Avenue-350 5th Aven created by Larry  Wilson on 2024-09-20,9,9/20/2024,6170,24,2
+21446,70026,25,5,New York Metro,46,NY Commercial,Worksite meeting at HARVARD MAINTENANCE-550 Washington Street-Master R created by Hatixhe Azemi on 2024-09-24,12,9/24/2024,1423,44,8
+21485,38110,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-32 6th Avenue- created by Heidy Tavarez on 2024-09-24,3,9/24/2024,4226,10,1
+21486,59686,25,5,New York Metro,46,NY Commercial,Worksite meeting at SLG 220 NEWS OWNER LLC-220 East 42nd Street-Master created by Larry  Wilson on 2024-09-24,14,9/24/2024,2998,16,12
+21491,62329,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-375 Hudson Str created by Hatixhe Azemi on 2024-09-25,24,9/25/2024,4226,33,17
+21493,27881,25,5,New York Metro,46,NY Commercial,Worksite meeting at Pritchard Industries Inc-399 PARK AVENUE-Master RA created by Arlind Lela on 2024-09-25,26,9/25/2024,7369,65,27
+21498,39786,25,5,New York Metro,46,NY Commercial,Worksite meeting at AEG BROOKLYN MANAGEMENT LLC-620 Atlantic Avenue-AE created by Kimberly Eyssen on 2024-09-26,85,9/26/2024,8015,350,17
+21499,47255,25,5,New York Metro,46,NY Commercial,"Worksite meeting at MSG ARENA, LLC-Madison Square Garden-MSG Arena, LL created by Kimberly Eyssen on 2024-09-26",7,9/26/2024,4334,148,30
+21500,47257,25,5,New York Metro,46,NY Commercial,"Worksite meeting at MSG ARENA, LLC-Madison Square Garden-MSG Arena, LL created by Kimberly Eyssen on 2024-09-26",4,9/26/2024,4334,87,21
+21502,20077,25,5,New York Metro,46,NY Commercial,Worksite meeting at CARNEGIE HALL CORP.-Carnegie Hall (Ushers)-Carnegi created by Kimberly Eyssen on 2024-09-26,55,9/26/2024,9593,76,8
+21524,38151,25,5,New York Metro,46,NY Commercial,Worksite meeting at GUARDIAN SERVICES INDUSTRIES INC.-101 6TH AVENUE-M created by Hatixhe Azemi on 2024-09-30,13,9/30/2024,9770,17,8
+21527,54161,25,5,New York Metro,46,NY Commercial,"Worksite meeting at SLG 711 FEE LLC, SLG 711 THIRD LLC-711 3rd Avenue- created by Leon Burnes on 2024-09-30",7,9/30/2024,7501,18,7
+21528,59193,25,5,New York Metro,46,NY Commercial,Worksite meeting at One Penn Plaza LLC-1 Pennsylvania Plaza-Master RAB created by Rogelio Cox Walker on 2024-09-30,5,9/30/2024,8644,111,41
+21529,59193,25,5,New York Metro,46,NY Commercial,Worksite meeting at One Penn Plaza LLC-1 Pennsylvania Plaza-Master RAB created by Michael DeFreitas on 2024-09-30,14,9/30/2024,8644,111,41
+21530,59193,25,5,New York Metro,46,NY Commercial,Worksite meeting at One Penn Plaza LLC-1 Pennsylvania Plaza-Master RAB created by Hatixhe Azemi on 2024-09-30,18,9/30/2024,8644,111,41
+21531,59193,25,5,New York Metro,46,NY Commercial,Worksite meeting at One Penn Plaza LLC-1 Pennsylvania Plaza-Master RAB created by Hatixhe Azemi on 2024-09-30,0,9/30/2024,8644,111,41
+21533,70013,25,5,New York Metro,46,NY Commercial,Worksite meeting at HARVARD MAINTENANCE-300 Madison Avenue-Master RAB  created by Larry  Wilson on 2024-09-30,30,9/30/2024,1423,49,18
+21540,58961,25,5,New York Metro,46,NY Commercial,"Worksite meeting at SOHO AOA OWNER, LLC-233 Spring Street-Master RAB C created by Hatixhe Azemi on 2024-10-02",1,10/2/2024,5900,1,NULL
+21564,47255,25,5,New York Metro,46,NY Commercial,"Worksite meeting at MSG ARENA, LLC-Madison Square Garden-MSG Arena, LL created by Kimberly Eyssen on 2024-10-03",14,10/3/2024,4334,148,30
+21565,47257,25,5,New York Metro,46,NY Commercial,"Worksite meeting at MSG ARENA, LLC-Madison Square Garden-MSG Arena, LL created by Kimberly Eyssen on 2024-10-03",17,10/3/2024,4334,87,21
+21569,49007,25,5,New York Metro,47,NY Residential,Worksite meeting at HPS 50TH AVENUE ASSOC. LLC - HPS 50TH AVENUE LIHTC created by Aditi Gupta on 2024-10-03,0,10/3/2024,7993,17,6
+21570,47257,25,5,New York Metro,46,NY Commercial,"Worksite meeting at MSG ARENA, LLC-Madison Square Garden-MSG Arena, LL created by Kimberly Eyssen on 2024-10-03",17,10/3/2024,4334,87,21
+21571,38119,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-395 Hudson Str created by Hatixhe Azemi on 2024-10-03,7,10/3/2024,4226,13,6
+21585,46287,25,5,New York Metro,46,NY Commercial,Worksite meeting at FIRST QUALITY MAINTENANCE (FQM)-345 Hudson Street- created by Hatixhe Azemi on 2024-10-07,1,10/7/2024,6456,11,8
+21586,46291,25,5,New York Metro,46,NY Commercial,Worksite meeting at FIRST QUALITY MAINTENANCE (FQM)-225 Varick Street- created by Hatixhe Azemi on 2024-10-07,4,10/7/2024,6456,14,7
+21587,46283,25,5,New York Metro,46,NY Commercial,Worksite meeting at FIRST QUALITY MAINTENANCE (FQM)-350 Hudson Street- created by Hatixhe Azemi on 2024-10-07,5,10/7/2024,6456,11,5
+21589,46282,25,5,New York Metro,46,NY Commercial,Worksite meeting at FIRST QUALITY MAINTENANCE (FQM)-435 Hudson Street- created by Hatixhe Azemi on 2024-10-07,3,10/7/2024,6456,8,4
+21591,59254,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-330 Madison Av created by Jennifer Fernandez on 2024-10-08,22,10/8/2024,4226,32,6
+21592,33835,25,5,New York Metro,46,NY Commercial,Worksite meeting at FRENCH PARTNERS LLC-551 Fifth Avenue-Master RAB Co created by Jennifer Fernandez on 2024-10-08,11,10/8/2024,11070,17,9
+21593,58124,25,5,New York Metro,46,NY Commercial,Worksite meeting at FIRST QUALITY MAINTENANCE (FQM)-452 5th Avenue-Mas created by Jennifer Fernandez on 2024-10-08,5,10/8/2024,6456,19,18
+21594,70268,25,5,New York Metro,46,NY Commercial,"Worksite meeting at 1120 Ave of the Americas, LLC-1120 6th Avenue-Mast created by Jennifer Fernandez on 2024-10-08",10,10/8/2024,8487,22,11
+21595,27839,25,5,New York Metro,46,NY Commercial,Worksite meeting at Pritchard Industries Inc-7 Times Square Tower-Mast created by Jennifer Fernandez on 2024-10-08,13,10/8/2024,7369,30,14
+21596,33567,25,5,New York Metro,46,NY Commercial,Worksite meeting at 200 MADISON AVENUE ASSOCIATES-200 Madison Avenue-M created by Jennifer Fernandez on 2024-10-08,11,10/8/2024,1566,21,8
+21597,32654,25,5,New York Metro,46,NY Commercial,Worksite meeting at 260-261 MADISON AVENUE LLC-260 Madison Avenue-Mast created by Jennifer Fernandez on 2024-10-08,2,10/8/2024,3022,13,2
+21598,45618,25,5,New York Metro,46,NY Commercial,"Worksite meeting at Empire State Realty OP, L.P. (ESRO)-1400 Broadway- created by Jennifer Fernandez on 2024-10-08",14,10/8/2024,3288,27,14
+21599,36937,25,5,New York Metro,46,NY Commercial,Worksite meeting at LECHAR REALTY LLC-1441 Broadway-Master RAB Commerc created by Jennifer Fernandez on 2024-10-08,4,10/8/2024,10407,11,2
+21600,60524,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-1440 Broadway - WeWor created by Jennifer Fernandez on 2024-10-08",6,10/8/2024,886,10,7
+21609,54846,25,5,New York Metro,46,NY Commercial,"Worksite meeting at PBM, LLC-77 Water Street-Master RAB NYC Contractor created by Heidy Tavarez on 2024-10-08",6,10/8/2024,4695,9,3
+21610,46933,25,5,New York Metro,46,NY Commercial,Worksite meeting at 1185 AVE OF AMERICAS LLC-1185 6th Avenue-Master RA created by Maciel  Mancebo on 2024-10-08,15,10/8/2024,1629,30,11
+21650,54161,25,5,New York Metro,46,NY Commercial,"Worksite meeting at SLG 711 FEE LLC, SLG 711 THIRD LLC-711 3rd Avenue- created by Leon Burnes on 2024-10-15",18,10/15/2024,7501,18,7
+21652,21392,25,5,New York Metro,46,NY Commercial,Worksite meeting at GUARDIAN SERVICES INDUSTRIES INC.-248-262 Hudson S created by Hatixhe Azemi on 2024-10-16,4,10/16/2024,9770,12,3
+21664,70997,25,5,New York Metro,46,NY Commercial,Worksite meeting at BAR BUILDING CONDOMINIUM-34-36 West 44th Street-Ma created by Jennifer Fernandez on 2024-10-16,2,10/16/2024,3111,3,1
+21666,66122,25,5,New York Metro,46,NY Commercial,Worksite meeting at Blackstone Consulting Inc-103 Prince Street-Apple  created by Hatixhe Azemi on 2024-10-17,1,10/17/2024,1672,11,6
+21699,70026,25,5,New York Metro,46,NY Commercial,Worksite meeting at HARVARD MAINTENANCE-550 Washington Street-Master R created by Hatixhe Azemi on 2024-10-18,16,10/18/2024,1423,44,8
+21709,67734,25,5,New York Metro,46,NY Commercial,"Worksite meeting at PBM, LLC-330 HUDSON STREET-Master RAB NYC Contract created by Hatixhe Azemi on 2024-10-21",5,10/21/2024,4695,10,3
+21712,69978,25,5,New York Metro,46,NY Commercial,Worksite meeting at HARVARD MAINTENANCE-245 PARK AVENUE-Master RAB NYC created by Arlind Lela on 2024-10-21,13,10/21/2024,1423,36,16
+21720,63734,25,5,New York Metro,46,NY Commercial,Worksite meeting at Pritchard Industries Inc-2 Park Avenue-Master RAB  created by Larry  Wilson on 2024-10-21,9,10/21/2024,7369,17,6
+21760,70488,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-200 PARK AVENUE-Maste created by Arlind Lela on 2024-10-25",58,10/25/2024,886,105,50
+21858,46931,25,5,New York Metro,46,NY Commercial,Worksite meeting at 100 CHURCH LLC-100 Church Street-Master RAB Commer created by Hatixhe Azemi on 2024-11-08,13,11/8/2024,1175,26,8
+21874,69312,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-731 Lexington  created by Leon Burnes on 2024-11-15,84,11/15/2024,4226,83,31
+21877,28918,25,5,New York Metro,46,NY Commercial,Worksite meeting at FIRST QUALITY MAINTENANCE (FQM)-10 East 40th Stree created by Jennifer Fernandez on 2024-11-18,8,11/18/2024,6456,9,6
+21879,34717,25,5,New York Metro,46,NY Commercial,Worksite meeting at 145 HUDSON STREET CONDO.-145 Hudson Street-Master  created by Hatixhe Azemi on 2024-11-18,5,11/18/2024,9550,8,2
+21888,53038,25,5,New York Metro,46,NY Commercial,Worksite meeting at Sino-American Cultural Center LLC-7-15 West 44th S created by Jennifer Fernandez on 2024-11-19,2,11/19/2024,6370,3,2
+21891,70017,25,5,New York Metro,46,NY Commercial,Worksite meeting at HARVARD MAINTENANCE-315 Hudson Street - Google - T created by Hatixhe Azemi on 2024-11-20,8,11/20/2024,1423,12,2
+21897,71199,25,5,New York Metro,46,NY Commercial,Worksite meeting at DISTRICT COUNCIL 37 BENEFITS FUND TRUST-125 Barcla created by Hatixhe Azemi on 2024-11-22,19,11/22/2024,11535,21,6
+21898,46307,25,5,New York Metro,46,NY Commercial,Worksite meeting at FIRST QUALITY MAINTENANCE (FQM)-181-200 Hudson Str created by Hatixhe Azemi on 2024-11-22,2,11/22/2024,6456,8,1
+21902,41356,25,5,New York Metro,46,NY Commercial,Worksite meeting at 237 Park Owner LLC-237 Park Avenue-Master RAB Comm created by Arlind Lela on 2024-11-26,18,11/26/2024,10818,30,8
+21903,39942,25,5,New York Metro,46,NY Commercial,"Worksite meeting at ABM Janitorial Services, Inc-466 Lexington Avenue- created by Arlind Lela on 2024-11-26",4,11/26/2024,886,11,3
+21905,31834,25,5,New York Metro,47,NY Residential,"Worksite meeting at 433 WEST ASSOCIATES, LLC-433 West 21st Street-Mast created by Adem Kajosaj on 2024-12-02",1,12/2/2024,5561,2,1
+21908,40667,25,5,New York Metro,46,NY Commercial,Worksite meeting at 535-545 FEE LLC-545 5th Avenue-Master RAB Commerci created by Jennifer Fernandez on 2024-12-03,4,12/3/2024,4632,4,1
+21909,58283,25,5,New York Metro,46,NY Commercial,Worksite meeting at 11 EAST 44TH STREET LLC-7-11 East 44th Street-Mast created by Jennifer Fernandez on 2024-12-03,3,12/3/2024,4058,4,1
+21910,69245,25,5,New York Metro,46,NY Commercial,"Worksite meeting at Core Facility Services, Llc-9 East 37th Street-Mas created by Jennifer Fernandez on 2024-12-03",1,12/3/2024,4629,1,1
+21911,46300,25,5,New York Metro,46,NY Commercial,Worksite meeting at FIRST QUALITY MAINTENANCE (FQM)-155 6th Avenue-Mas created by Hatixhe Azemi on 2024-12-04,8,12/4/2024,6456,10,2
+21913,67635,25,5,New York Metro,46,NY Commercial,Worksite meeting at UG2 LLC-424 5th Avenue-Master RAB NYC Contractors  created by Jennifer Fernandez on 2024-12-04,26,12/4/2024,4239,40,25
+21922,28368,25,5,New York Metro,46,NY Commercial,Worksite meeting at COLLINS BUILDING SERVICES INC (CBS)-180 Varick Str created by Hatixhe Azemi on 2024-12-06,1,12/6/2024,4226,7,2
+21923,38219,25,5,New York Metro,46,NY Commercial,Worksite meeting at 200 VARICK STREET ASSOCIATES-200 Varick Street S/a created by Hatixhe Azemi on 2024-12-06,1,12/6/2024,1017,8,1

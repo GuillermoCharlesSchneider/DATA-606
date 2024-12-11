@@ -1,33 +1,191 @@
 ---
-title: DATA 606 Data Project Proposal
-author: 
+title: "DATA 606 Data Project Proposal"
+author: "Guillermo Schneider"
+output: pdf_document
 ---
 
-
-```{r echo=FALSE}
-# load data
-
+```{r}
+library(tidyverse)
+library(lubridate)
+library(dplyr)
+library(Hmisc)
 ```
 
 
 ### Part 1 - Introduction
 
+I work as a Data Analyst at SEIU 32BJ, a labor union. We represent ~80,000 Janitors, Cleaners, Doormen, Security Guards, Window Cleaners, and other building workers in NYC. 
+Our Union Representatives often organize group meetings with our members at their worksite (called Worksite Meetings). 
+By using our new app to scan member IDs, they’ve been gathering more accurate meeting attendance data for the past year.
+We’re curious if we can use this to can help predict expected turnout to Worksite Meetings.
+
+
+Research Question
+Do buildings’ division, member count, and ADF (political) contributions influence turnout to worksite meetings?
+
+Turnout ~ Division + Members + ADF 
+
 
 ### Part 2 - Data
+Data set with identifying info of reps or employers or addresses removed
+```{r setup, echo=TRUE, results='hide', warning=FALSE, message=FALSE}
+# load data
+WorksiteMeetings <- read.csv("WorksiteMeetingsNoIndentifyingInfo.csv") 
+```
+
+Correct date format:
+```{r}
+WorksiteMeetings$datecreated <- mdy(WorksiteMeetings$datecreated)
+```
+
+Change from char to numeric:
+```{r}
+WorksiteMeetings$memberCount <- as.numeric(WorksiteMeetings$memberCount)
+WorksiteMeetings$ADFcount <- as.numeric(WorksiteMeetings$ADFcount)
+WorksiteMeetings$turnoutcount <- as.numeric(WorksiteMeetings$turnoutcount)
+```
+
+change the NA's in ADF to zeros:
+```{r}
+WorksiteMeetings$ADFcount <- WorksiteMeetings$ADFcount %>% replace(is.na(.), 0)
+```
 
 
+New fields for turnout percentage and ADF percentage of building:
+```{r}
+WorksiteMeetings$ADFPercentage <- (WorksiteMeetings$ADFcount / WorksiteMeetings$memberCount)
+WorksiteMeetings$TurnoutPercentage <- (WorksiteMeetings$turnoutcount / WorksiteMeetings$memberCount)
+```
+
+Replace those >100% with 100%
+```{r}
+WorksiteMeetings$TurnoutPercentage <-replace(WorksiteMeetings$TurnoutPercentage, WorksiteMeetings$TurnoutPercentage>1, 1) 
+```
+
+Remove the NY Security, there are too many huge memberCount accounts of grouped locations. this is a known issue, os im unsurprised to see it here. It makes it really hard to figure out which buildings our members actually work at:
+```{r}
+WorksiteMeetings <- WorksiteMeetings %>%  filter(divisionName !='NY Security')
+```
 ### Part 3 - Exploratory data analysis
+
+**divisionName:** Residential and Commercial buildings are our biggest divisions, this makes sense to me:
+```{r}
+table(WorksiteMeetings$divisionName)
+```
+
+
+**MemberCount** is the roster size at that building. We represent lots of single doorman buildings, and smaller buildings with just a few cleaning staff, but we do have some larger 100+ person buildings
+```{r}
+summary(WorksiteMeetings$memberCount)
+```
+
+```{r}
+ggplot(WorksiteMeetings, aes(x=memberCount)) + geom_histogram()
+```
+
+**TurnoutPercentage:** percent of building that went to an event. There are alot of 1 person buildings, with 1 person attending for 100% attendance. I want to do something to account for turnout size, those bigger buildings with only 50% still have a huge number of ppl turn out. I should also probably use a log regression for my 0-1 scale.
+```{r}
+ggplot(WorksiteMeetings, aes(x=TurnoutPercentage)) + geom_histogram(bins=30) +xlim(0,1.1)
+```
+
+TurnoutPercentage vs divisionName
+```{r}
+ggplot(WorksiteMeetings, aes(x=TurnoutPercentage, y=divisionName))  + geom_violin() + geom_jitter()
+```
+
+```{r}
+ggplot(WorksiteMeetings, aes(x=ADFPercentage, y=TurnoutPercentage))  + geom_point()
+```
+
+**turnoutcount:** Turnout at that individual event. Distribution is looking similar to building size, makes sense
+```{r}
+describe(WorksiteMeetings$turnoutcount)
+```
+
+turnoutcount vs divisionName
+```{r}
+ggplot(WorksiteMeetings, aes(x=turnoutcount, y=divisionName)) + geom_jitter()
+```
+
+```{r}
+ggplot(WorksiteMeetings, aes(x=ADFcount, y=turnoutcount))  + geom_point()
+```
+
+**DateCreated: is the date the event happened. I didn't end up adding this to my model, but it was interesting to look at. Unsure if i remember what exactly happening in April to cause the big spike in the spring, i know we had a few buildings try to forcefully switch to non-union staff this spring which caused some commotion, that could've been when reps were checking in more with those buildings?**
+```{r}
+ggplot(WorksiteMeetings, aes(x=datecreated)) + geom_histogram()
+```
 
 
 ### Part 4 - Inference
 
+**Linear Model**:I tried a linear model using the turnout counts and ADF counts. It had heavy tails, distribution is not normal, very skewed.  Unfortunately, we learned this is probably not a good fit for linear models?
+```{r}
+turnout_count <- lm(turnoutcount ~ divisionName + memberCount + ADFcount, data = WorksiteMeetings)
+summary(turnout_count)
+```
+
+My residuals seems to be increasing and are not constant
+```{r}
+ggplot(data = turnout_count, aes(x = .fitted, y = .resid)) +
+  geom_point() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  xlab("Fitted values") +
+  ylab("Residuals")
+```
+
+heavy tails, distribution is not normal
+```{r}
+ggplot(data = turnout_count, aes(sample = .resid)) +
+  stat_qq() +
+  stat_qq_line()
+```
+
+**Weighted Logistic Model** Using percentage of turnout, turnout count divided by member count at the building, to get a proportion, bounded within 0 to 1.  I also found it needed to include the turnout count as a weight in the model, bc my data is a bit unbalanced:
+```{r}
+log_turnout_count2 <- glm(TurnoutPercentage ~ divisionName + memberCount + ADFcount, data = WorksiteMeetings,family = "binomial"(link = "logit"), weights=turnoutcount)
+summary(log_turnout_count2)
+```
+
+Odds ratio (e^log-odds): I found the logistic regression interpretation a bit confusing, but these are my interpretation (while holding all other variables constant):
+
+NY Residential buildings odds ratio of 0.49, suggests a 51% lower odds of turnout than a NY Commercial buildings
+
+With the membercount odds ratio with 0.99, a increase of 1 more member at the buildings, would suggests a 1% lower odds of turnout 
+
+Similarly with ADFCount odds ratio being 0.99, a increase of 1 more person signing up for ADF at the buildings, would suggests a 1% lower odds of turnout 
+```{r}
+exp(coefficients(log_turnout_count2))
+```
+
+**Chi Squared:**
+Null hypothesis (H0): there is no association between our variables
+Alternative hypothesis (H1): there is an association between our variables
+Chi-squared to p-value:
+X2 = Null deviance – Residual deviance
+p-value is less than.05 so we reject the null hypothesis. There is a statistically significant relationship between the buildings’ division, member count, and ADF contributions to turnout
+```{r}
+1-pchisq(1131.38-952.04, 529-525)
+```
 
 ### Part 5 - Conclusion
 
+- Our turnout seems to be more polarized than we thought, with extremes (both very high and very low turnout %) seeming to be more common than expected 
+- Our Union Reps may be putting to much weight on whether a building contributes to ADF means they’ll be more likely to come to Worksite Meetings
+- Commercial Building members are much more likely to turnout
+- Targeting smaller buildings may be key for better turnout
+
+
+Limitations: I’m calculating turnout % using past turnout divided by current roster. Usually, rosters stay similar sizes through the year (especially due to union contract protections on unlawful reduction in forces), but they do change, introducing possible inaccuracy.
+
+Improved dataset: I think its possible but tedious to have my SQL queries roster and ADF data for each day, to more accurately calculate the turnout % for the exact day of the worksite meeting
+
+Future Analysis: With that dataset, I could compare data before and after worksite meetings to see the potential impact of the visit 
+
 
 ### References
+Data is self-collected.
 
 
-### Appendix (optional)
 
-Remove this section if you don't have an appendix
+

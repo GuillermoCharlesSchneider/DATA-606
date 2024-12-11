@@ -38,6 +38,12 @@ WorksiteMeetings$memberCount <- as.numeric(WorksiteMeetings$memberCount)
 WorksiteMeetings$ADFcount <- as.numeric(WorksiteMeetings$ADFcount)
 WorksiteMeetings$turnoutcount <- as.numeric(WorksiteMeetings$turnoutcount)
 ```
+change the NA's in ADF to zeros, i left the memberCounts as NA bc i dont know how many it really should be
+```{r}
+WorksiteMeetings$ADFcount <- WorksiteMeetings$ADFcount %>% replace(is.na(.), 0)
+
+```
+
 **New fields for turnout percentage and ADF percentage of building**
 **POSSIBLE PROBLEM: there are 4 buildings with a percent higher than 100%, this could happen if the roster size changed since the event happened. these are all in smaller buildings, i think i will just count them as 100%, as they're off by 1 or 2 and they got the entire size of the current building to come to event. this could be an issue with other buildings that i cant detect under 100%, but i dont have a better way to compare each individual roster size at that time of the event, so i'm using the current roster as a proxy, building rosters ~usually~ stay around the same size**
 ```{r}
@@ -50,6 +56,15 @@ Replace those >100% with 100%
 WorksiteMeetings$TurnoutPercentage <-replace(WorksiteMeetings$TurnoutPercentage, WorksiteMeetings$TurnoutPercentage>1, 1) 
 
 ```
+
+Remove the NY Security, there are too many huge memberCount accounts of grouped locations. this is a known issue, os im unsurprised to see it here. It makes it really hard to figure out which buildings our members actually work at:
+```{r}
+WorksiteMeetings <- WorksiteMeetings %>%  filter(divisionName !='NY Security')
+```
+
+
+
+
 
 
 ### Context 
@@ -136,9 +151,25 @@ table(WorksiteMeetings$v3fieldrepname,WorksiteMeetings$divisionName)
 ```
 **MemberCount is the roster size at that building. We represent lots of single doorman buildings, and smaller buildings with just a few cleaning staff, but we do have some larger 100+ person buildings**
 ```{r}
-describe(WorksiteMeetings$memberCount)
+summary(WorksiteMeetings$memberCount)
+```
+```{r}
+summary(WorksiteMeetings$ADFPercentage)
 ```
 
+```{r}
+ggplot(WorksiteMeetings, aes(x=(log(TurnoutPercentage)))) + geom_histogram()
+```
+
+
+
+```{r}
+ggplot(WorksiteMeetings, aes(x=ADFcount,y=TurnoutPercentage)) + geom_point()
+```
+
+```{r}
+ggplot(WorksiteMeetings, aes(x=ADFPercentage,y=TurnoutPercentage)) + geom_point()
+```
 
 ```{r}
 ggplot(WorksiteMeetings, aes(x=memberCount)) + geom_histogram()
@@ -154,13 +185,33 @@ ggplot(WorksiteMeetings, aes(x=turnoutcount)) + geom_histogram()
 
 **TurnoutPercentage: percent of building that went to an event. There are alot of 1 person buildings, with 1 person attending for 100% attendance. I want to do something to account for turnout size, those bigger buildings with only 50% still have a huge number of ppl turn out. I should also probably use a log regression for my 0-1 scale.**
 ```{r}
-ggplot(WorksiteMeetings, aes(x=TurnoutPercentage)) + geom_histogram() +xlim(0,1.1)
+ggplot(WorksiteMeetings, aes(x=TurnoutPercentage)) + geom_histogram(bins=30) +xlim(0,1.1)
 ```
 **ADF Percentage, percentage of members paying into our political fund (we usually assume this people are more likely to be politically and union involved). happy to see a more normal distribution. again there are those 1 person buildings with that 1 member paying for 100% rate.**
+
+
+
+
+
 ```{r}
 ggplot(WorksiteMeetings, aes(x=ADFPercentage)) + geom_histogram() +xlim(0,1.1)
 ```
 
+```{r}
+ggplot(WorksiteMeetings, aes(x=(turnoutcount))) + geom_histogram()
+```
+
+```{r}
+summary(WorksiteMeetings$ADFcount)
+```
+
+
+```{r}
+ggplot(WorksiteMeetings, aes(x=ADFcount)) + geom_histogram()
+```
+```{r}
+ggplot(WorksiteMeetings, aes(x=ADFcount)) + geom_histogram()
+```
 
 **DateCreated: is the date the event happened. Unsure if i remember what exactly happening in April to cause the big spike in the spring, i know we had a few buildings try to forcefully switch to non-union staff this spring which caused some commotion, that could've been when reps were checking in more with those buildings?**
 ```{r}
@@ -170,6 +221,99 @@ ggplot(WorksiteMeetings, aes(x=datecreated)) + geom_histogram()
 
 REGRESSION STUFF:
 
+COUNT:
+```{r}
+
+
+turnout_count <- lm(turnoutcount ~ divisionName + memberCount + ADFcount, data = WorksiteMeetings)
+
+
+summary(turnout_count)
+```
+```{r}
+ggplot(data = turnout_count, aes(x = .fitted, y = .resid)) +
+  geom_point() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  xlab("Fitted values") +
+  ylab("Residuals")
+```
+heavy tails, distribution is not normal
+```{r}
+ggplot(data = turnout_count, aes(sample = .resid)) +
+  stat_qq() +
+  stat_qq_line()
+```
+THIS ONE!!!!
+
+```{r}
+TESTING <- na.omit(WorksiteMeetings)
+TESTING
+```
+
+
+
+
+
+```{r}
+
+
+log_turnout_count2 <- glm(TurnoutPercentage ~ divisionName + memberCount + ADFcount, data = TESTING,family = "binomial"(link = "logit"), weights=turnoutcount)
+
+summary(log_turnout_count2)
+
+
+```
+
+```{r}
+1-pchisq(1131.38-952.04, 529-525)
+```
+
+
+Odds ratio (e^log-odds)
+```{r}
+exp(coefficients(log_turnout_count2))
+```
+membercount: negative sign indicates that the chance of turnout decreases as member count increases. 
+ADFcount: negative sign indicates that the chance of turnout decreases as member count increases. 
+
+()
+
+I found the logistic regression interpretation a bit confusing, but these are my interpretation (while holding all other variables constant):
+
+im not sure interpreting the intercept is that useful, assuming membercount is 0 and adf count is 0 
+
+NY Residential buildings odds ratio of 0.49, suggests a 51% lower odds of turnout than a NY Commercial buildings
+
+with the membercount odds ratio with 0.99, a increase of 1 more member at the buildings, would suggests a 1% lower odds of turnout 
+
+similarly with ADFCount odds ratio being 0.99, a increase of 1 more person signing up for ADF at the buildings, would suggests a 1% lower odds of turnout 
+
+
+
+
+```{r}
+
+```
+
+
+```{r}
+plot_linear_assumption_check(log_turnout_count2)
+```
+
+```{r}
+anova(log_turnout_count2)
+```
+
+
+```{r}
+exp(-0.0071310)
+```
+```{r}
+study$linear_resid <- resid(lm.out)
+ggplot(study, aes(x = Hours, y = linear_resid)) +
+    geom_point() +
+    ggtitle('Residual Plot')
+```
 
 
 LINEAR MODEL:
@@ -177,10 +321,15 @@ LINEAR MODEL:
 turnout <- lm(TurnoutPercentage ~ divisionName + memberCount + ADFPercentage, data = WorksiteMeetings)
 summary(turnout)
 ```
+```{r}
+turnout <- lm(TurnoutPercentage ~ divisionName + memberCount, data = WorksiteMeetings)
+summary(turnout)
+```
+
+
 ""their variability changes as the proportion changes1 and as the sample size changes; consequently the results are heteroskedastic and generally nonlinear."" Note that count proportions are bounded between 0 and 1, and their variability changes as the proportion changes1 and as the sample size changes; consequently the results are heteroskedastic and generally nonlinear. (So linear regression might not be a great idea, for example.)
 
 The usual approach for this sort of situation is some form of binomial regression, like logistic regression for example."
-
 
 ```{r}
 log_turnout <- glm(TurnoutPercentage ~ divisionName + memberCount + ADFPercentage, data = WorksiteMeetings,family = "binomial")
@@ -193,5 +342,74 @@ ADFPercentage: for every 10% more of ADFPercentage you get at a building, we exp
 
 
 thats okay: "The intercept isn't significant because there isn't sufficient statistical evidence that it's different from zero"
+
+
+
+
+```{r}
+ggplot(data = turnout, aes(x = .fitted, y = .resid)) +
+  geom_point() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  xlab("Fitted values") +
+  ylab("Residuals")
+```
+```{r}
+ggplot(data = log_turnout, aes(x = .fitted, y = .resid)) +
+  geom_point() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  xlab("Fitted values") +
+  ylab("Residuals")
+```
+
+
+```{r}
+ggplot(data = turnout, aes(x = .fitted, y = .resid)) +
+  geom_jitter() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  xlab("Fitted values") +
+  ylab("Residuals") +
+  geom_smooth() +
+  geom_smooth(method="lm", se = FALSE, color="green")
+```
+
+
+
+
+```{r}
+ggplot(data = turnout, aes(sample = .resid)) +
+  stat_qq() +
+  stat_qq_line()
+```
+
+```{r}
+ggplot(data = log_turnout, aes(sample = .resid)) +
+  stat_qq() +
+  stat_qq_line()
+```
+
+
+
+
+```{r}
+
+ggplot(WorksiteMeetings, aes(x=ADFcount, y=turnoutcount))  + geom_point()
+
+```
+
+```{r}
+ggplot(WorksiteMeetings, aes(x=ADFPercentage, y=TurnoutPercentage))  + geom_point()
+
+```
+
+
+
+```{r}
+ggplot(WorksiteMeetings, aes(x=turnoutcount, y=divisionName)) + geom_jitter()
+```
+
+```{r}
+ggplot(WorksiteMeetings, aes(x=TurnoutPercentage, y=divisionName))  + geom_violin() + geom_jitter()
+
+```
 
 
